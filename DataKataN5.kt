@@ -86,7 +86,7 @@ object DataKataN5 {
         angka.add(N5(
             "sepuluh",
             "じゅう",
-            "jyuu"
+            "juu"
         ))
 
         angka.add(N5(
