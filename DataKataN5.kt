@@ -85,4 +85,60 @@ object DataKataN5 {
 
         return hari
     }
+    
+        fun kategoriTglHari(): ArrayList<N5> {
+        val tglHari = ArrayList<N5>()
+
+        tglHari.add(N5("tanggal, hari", "にち", "nichi"))
+
+        tglHari.add(N5("tanggal 1", "ついたち", "tsuitachi"))
+
+        tglHari.add(N5("tanggal 2", "ふつか", "futsuka"))
+
+        tglHari.add(N5("tanggal 3", "みっか", "mikka"))
+
+        tglHari.add(N5("tanggal 4", "よっか", "yokka"))
+
+        tglHari.add(N5("tanggal 5", "いつか", "itsuka"))
+
+        tglHari.add(N5("tanggal 6", "むいか", "muika"))
+
+        tglHari.add(N5("tanggal 7", "なのか", "nanoka"))
+
+        tglHari.add(N5("tanggal 8", "ようか", "youka"))
+
+        tglHari.add(N5("tanggal 9", "ここのか", "kokonoka"))
+
+        tglHari.add(N5("tanggal 10", "とおか", "tooka"))
+
+        tglHari.add(N5("tanggal 20", "はつか", "hatsuka"))
+
+        tglHari.add(N5("1 hari", "いちにち", "ichinichi"))
+
+        tglHari.add(N5("(selama)2 hari", "ふつか(かん)", "futsuka(kan)"))
+
+        tglHari.add(N5("(selama)3 hari", "みっか(かん)", "mikka(kan)"))
+
+        tglHari.add(N5("(selama)4 hari", "よっか(かん)", "yokka(kan)"))
+
+        tglHari.add(N5("(selama)5 hari", "いつか(かん)", "itsuka(kan)"))
+
+        tglHari.add(N5("(selama)6 hari", "むいか(かん)", "muika(kan)"))
+
+        tglHari.add(N5("(selama)7 hari", "なのか(かん)", "nanoka(kan)"))
+
+        tglHari.add(N5("(selama)8 hari", "ようか(かん)", "youka(kan)"))
+
+        tglHari.add(N5("(selama)9 hari", "ここのか(かん)", "kokonoka(kan)"))
+
+        tglHari.add(N5("(selama)10 hari", "とおか(かん)", "tooka(kan)"))
+
+        tglHari.add(N5("1 minggu", "いっしゅうかん", "isshuukan"))
+
+        tglHari.add(N5("(selama)1 bulan", "いっかげつ(かん)", "ikkagetsu(kan)"))
+
+        tglHari.add(N5("(selama)1 tahun", "いちねん(かん)", "ichinen(kan)"))
+
+        return tglHari
+    }
 }
