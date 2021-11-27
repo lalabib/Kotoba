@@ -2,6 +2,7 @@ package com.capstone.project.kotoba
 
 object DataKataN5 {
 
+    //70-71
     fun kategoriAngka(): ArrayList<N5> {
         val angka = ArrayList<N5>()
 
@@ -64,6 +65,7 @@ object DataKataN5 {
         return angka
     }
 
+    //71
     fun kategoriHari(): ArrayList<N5> {
         val hari = ArrayList<N5>()
 
@@ -86,7 +88,8 @@ object DataKataN5 {
         return hari
     }
     
-        fun kategoriTglHari(): ArrayList<N5> {
+    //71-72
+    fun kategoriTglHari(): ArrayList<N5> {
         val tglHari = ArrayList<N5>()
 
         tglHari.add(N5("tanggal, hari", "にち", "nichi"))
@@ -140,5 +143,33 @@ object DataKataN5 {
         tglHari.add(N5("(selama)1 tahun", "いちねん(かん)", "ichinen(kan)"))
 
         return tglHari
+    }
+    
+    //72-74
+    fun kategoriKetWaktu(): ArrayList<N5> {
+        val KetWaktu = ArrayList<N5>()
+
+        KetWaktu.add(N5("waktu", "じかん", "jikan"))
+        
+        KetWaktu.add(N5("pagi, a.m", "ごぜん", "gozen"))
+        
+        KetWaktu.add(N5("sore, p.m", "ごご", "gogo"))
+        
+        KetWaktu.add(N5("lebih dulu", "さき", "saki"))
+        
+        KetWaktu.add(N5("sekarang", "いま", "ima"))
+        
+        KetWaktu.add(N5("pagi", "あさ", "asa"))
+        
+        KetWaktu.add(N5("siang", "ひる", "hiru"))
+        
+        KetWaktu.add(N5("sore hari, senja", "ゆうがた", "yuugata"))
+        
+        KetWaktu.add(N5("malam", "よる, ばん", "yoru, ban"))
+        
+        KetWaktu.add(N5("setiap hari", "まいにち", "mainichi"))
+        
+        
+        return ketWaktu
     }
 }
