@@ -293,4 +293,29 @@ object DataKataN5 {
 
         return satuan
     }
+
+    //75
+    fun kategoriKataGanti(): ArrayList<N5> {
+        val kataGanti = ArrayList<N5>()
+
+        kataGanti.add(N5("saya", "わたし, わたくし", "watashi, watakushi"))
+
+        kataGanti.add(N5("kamu, anda", "あなた", "anata"))
+
+        kataGanti.add(N5("dia(laki-laki)", "かれ", "kare"))
+
+        kataGanti.add(N5("dia(perempuan)", "かのじょお", "kanojoo"))
+
+        kataGanti.add(N5("kami, kita", "わたし/わたくし たち", "watashi/watakushi tachi"))
+
+        kataGanti.add(N5("kalian, anda sekalian", "あなた たち", "anata tachi"))
+
+        kataGanti.add(N5("mereka(laki-laki)", "かれ たち, かれら", "kare tachi, karera"))
+
+        kataGanti.add(N5("mereka(perempuan)", "かのじょお たち, かのじょおら", "kanojoo tachi, kanojoora"))
+
+        kataGanti.add(N5("diri sendiri", "じぶん", "jibun"))
+
+        return kataGanti
+    }
 }
