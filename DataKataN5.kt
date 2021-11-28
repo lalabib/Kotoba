@@ -318,4 +318,49 @@ object DataKataN5 {
 
         return kataGanti
     }
+
+    //75-76
+    fun kategoriManusiaTubuh(): ArrayList<N5> {
+        val manusiaTubuh = ArrayList<N5>()
+
+        manusiaTubuh.add(N5("orang", "ひと", "hito"))
+
+        manusiaTubuh.add(N5("orang(bentuk hormat)", "かた", "kata"))
+
+        manusiaTubuh.add(N5("(orang)dewasa", "おとな", "otona"))
+
+        manusiaTubuh.add(N5("laki-laki, pria", "おとこ", "otoko"))
+
+        manusiaTubuh.add(N5("perempuan, wanita", "おんな", "onna"))
+
+        manusiaTubuh.add(N5("anak-anak", "こども, こ", "kodomo, ko"))
+
+        manusiaTubuh.add(N5("kepala", "あたま", "atama"))
+
+        manusiaTubuh.add(N5("mata", "め", "me"))
+
+        manusiaTubuh.add(N5("hidung", "はな", "hana"))
+
+        manusiaTubuh.add(N5("mulut", "くち", "kuchi"))
+
+        manusiaTubuh.add(N5("gigi", "は", "ha"))
+
+        manusiaTubuh.add(N5("telinga, kuping", "みみ", "mimi"))
+
+        manusiaTubuh.add(N5("leher", "くび", "kubi"))
+
+        manusiaTubuh.add(N5("tubuh, badan", "からだ", "karada"))
+
+        manusiaTubuh.add(N5("tangan", "て", "te"))
+
+        manusiaTubuh.add(N5("dada", "むね", "mune"))
+
+        manusiaTubuh.add(N5("punggung", "せ, せい", "se, sei"))
+
+        manusiaTubuh.add(N5("perut", "おなか", "onaka"))
+
+        manusiaTubuh.add(N5("kaki", "あし", "ashi"))
+
+        return manusiaTubuh
+    }
 }
