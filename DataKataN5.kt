@@ -234,6 +234,7 @@ object DataKataN5 {
         return ketWaktu
     }
 
+    //74
     fun kategoriWarna(): ArrayList<N5> {
         val warna = ArrayList<N5>()
 
@@ -254,5 +255,42 @@ object DataKataN5 {
         warna.add(N5("hijau", "みどり いろ,みどり", "midori iro, midori"))
 
         return warna
+    }
+
+    //74-75
+    fun kategoriSatuan(): ArrayList<N5> {
+        val satuan = ArrayList<N5>()
+
+        satuan.add(N5("kilo, kilogram(kg)", "きろ,きろぐらむ", "kiro, kiroguramu"))
+
+        satuan.add(N5("gram(gr)", "ぐらむ", "guramu"))
+
+        satuan.add(N5("kilo, kilometer(km)", "きろ,きろめえとる", "kiro, kiromeetoru"))
+
+        satuan.add(N5("meter(m)", "めえとる", "meetoru"))
+
+        satuan.add(N5("lembar", "まい", "mai"))
+
+        satuan.add(N5("halaman", "ぺえじ", "peeji"))
+
+        satuan.add(N5("jilid", "さつ", "satsu"))
+
+        satuan.add(N5("jam", "じかん", "jikan"))
+
+        satuan.add(N5("menit", "ふん,ぷん", "fun, pun"))
+
+        satuan.add(N5("detik", "びょう", "byou"))
+
+        satuan.add(N5("nomor", "ばん", "ban"))
+
+        satuan.add(N5("(nomor urut)ke ...", "ばんめ", "banme"))
+
+        satuan.add(N5("orang", "にん", "nin"))
+
+        satuan.add(N5("batang(pensil, botol, pohon)", "ほん,ぽん,ぼん", "hon, pon, bon"))
+
+        satuan.add(N5("ekor", "ひき,ぴき,びき", "hiki, piki, biki"))
+
+        return satuan
     }
 }
