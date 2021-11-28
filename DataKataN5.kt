@@ -87,7 +87,7 @@ object DataKataN5 {
 
         return hari
     }
-    
+
     //71-72
     fun kategoriTglHari(): ArrayList<N5> {
         val tglHari = ArrayList<N5>()
@@ -144,32 +144,115 @@ object DataKataN5 {
 
         return tglHari
     }
-    
+
     //72-74
     fun kategoriKetWaktu(): ArrayList<N5> {
-        val KetWaktu = ArrayList<N5>()
+        val ketWaktu = ArrayList<N5>()
 
-        KetWaktu.add(N5("waktu", "じかん", "jikan"))
-        
-        KetWaktu.add(N5("pagi, a.m", "ごぜん", "gozen"))
-        
-        KetWaktu.add(N5("sore, p.m", "ごご", "gogo"))
-        
-        KetWaktu.add(N5("lebih dulu", "さき", "saki"))
-        
-        KetWaktu.add(N5("sekarang", "いま", "ima"))
-        
-        KetWaktu.add(N5("pagi", "あさ", "asa"))
-        
-        KetWaktu.add(N5("siang", "ひる", "hiru"))
-        
-        KetWaktu.add(N5("sore hari, senja", "ゆうがた", "yuugata"))
-        
-        KetWaktu.add(N5("malam", "よる, ばん", "yoru, ban"))
-        
-        KetWaktu.add(N5("setiap hari", "まいにち", "mainichi"))
-        
-        
+        ketWaktu.add(N5("waktu", "じかん", "jikan"))
+
+        ketWaktu.add(N5("pagi, a.m", "ごぜん", "gozen"))
+
+        ketWaktu.add(N5("sore, p.m", "ごご", "gogo"))
+
+        ketWaktu.add(N5("lebih dulu", "さき", "saki"))
+
+        ketWaktu.add(N5("sekarang", "いま", "ima"))
+
+        ketWaktu.add(N5("pagi", "あさ", "asa"))
+
+        ketWaktu.add(N5("siang", "ひる", "hiru"))
+
+        ketWaktu.add(N5("sore hari, senja", "ゆうがた", "yuugata"))
+
+        ketWaktu.add(N5("malam", "よる, ばん", "yoru, ban"))
+
+        ketWaktu.add(N5("setiap hari", "まいにち", "mainichi"))
+
+        ketWaktu.add(N5("setiap pagi", "まいあさ", "maiasa"))
+
+        ketWaktu.add(N5("setiap malam", "まいばん", "maiban"))
+
+        ketWaktu.add(N5("setiap minggu ", "まいしゅう", "maishuu"))
+
+        ketWaktu.add(N5("setiap bulan", "まいつき/まいげつ", "maitsuki/maigetsu"))
+
+        ketWaktu.add(N5("setiap tahun", "まいとし/まいねん", "maitoshi/mainen"))
+
+        ketWaktu.add(N5("tadi pagi, pagi ini", "けさ", "kesa"))
+
+        ketWaktu.add(N5("malam ini", "こんばん", "konban"))
+
+        ketWaktu.add(N5("minggu ini", "こんしゅう", "konshuu"))
+
+        ketWaktu.add(N5("bulan ini", "こん'げつ", "kon'getsu"))
+
+        ketWaktu.add(N5("tahun ini", "ことし", "kotoshi"))
+
+        ketWaktu.add(N5("kemarin dulu", "おととい", "ototoi"))
+
+        ketWaktu.add(N5("tadi malam, kemarin malam", "ゆうべ,さくや", "yuube, sakuya"))
+
+        ketWaktu.add(N5("kemarin", "きのう", "kinou"))
+
+        ketWaktu.add(N5("hari ini", "きょう", "kyou"))
+
+        ketWaktu.add(N5("besok", "あした", "ashita"))
+
+        ketWaktu.add(N5("lusa", "あさって", "asatte"))
+
+        ketWaktu.add(N5("2 minggu yang lalu", "せんせんしゅう", "sensenshuu"))
+
+        ketWaktu.add(N5("minggu lalu", "せんしゅう", "senshuu"))
+
+        ketWaktu.add(N5("minggu ini", "こんしゅう", "konshuu"))
+
+        ketWaktu.add(N5("minggu depan", "らいしゅう", "raishuu"))
+
+        ketWaktu.add(N5("2 minggu yang akan datang", "さらいしゅう", "saraishuu"))
+
+        ketWaktu.add(N5("2 bulan lalu", "せんせん'げつ", "sensen'getsu"))
+
+        ketWaktu.add(N5("bulan lalu", "せん'げつ", "sen'getsu"))
+
+        ketWaktu.add(N5("bulan ini", "こん'げつ", "kon'getsu"))
+
+        ketWaktu.add(N5("bulan depan", "らいげつ", "raigetsu"))
+
+        ketWaktu.add(N5("2 bulan yang akan datang", "さらいげつ", "saraigetsu"))
+
+        ketWaktu.add(N5("2 tahun yang lalu", "おととし", "ototoshi"))
+
+        ketWaktu.add(N5("tahun lalu", "きょねん", "kyonen"))
+
+        ketWaktu.add(N5("tahun ini", "ことし", "kotoshi"))
+
+        ketWaktu.add(N5("tahun depan", "らいねん", "rainen"))
+
+        ketWaktu.add(N5("2 tahun yang akan datang", "さらいねん", "sarainen"))
+
         return ketWaktu
+    }
+
+    fun kategoriWarna(): ArrayList<N5> {
+        val warna = ArrayList<N5>()
+
+        warna.add(N5("warna", "いろ", "iro"))
+
+        warna.add(N5("biru", "あお,あおい", "ao, aoi"))
+
+        warna.add(N5("merah", "あか,あかい", "aka, akai"))
+
+        warna.add(N5("kuning", "きいろ,きいろい", "kiiro, kiiroi"))
+
+        warna.add(N5("hitam", "くろ,くろい", "kuro, kuroi"))
+
+        warna.add(N5("putih", "しろ,しろい", "shiro, shiroi"))
+
+        warna.add(N5("coklat", "ちゃ'いろ,ちゃいろ", "cha'iro, chairo"))
+
+        warna.add(N5("hijau", "みどり いろ,みどり", "midori iro, midori"))
+
+        return warna
     }
 }
