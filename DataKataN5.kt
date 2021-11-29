@@ -1,4 +1,6 @@
-package com.capstone.project.kotoba
+package com.capstone.project.kotoba.data
+
+import com.capstone.project.kotoba.N5
 
 object DataKataN5 {
 
@@ -304,7 +306,7 @@ object DataKataN5 {
 
         kataGanti.add(N5("dia(laki-laki)", "かれ", "kare"))
 
-        kataGanti.add(N5("dia(perempuan)", "かのじょお", "kanojoo"))
+        kataGanti.add(N5("dia(perempuan)", "かのじょ", "kanojo"))
 
         kataGanti.add(N5("kami, kita", "わたし/わたくし たち", "watashi/watakushi tachi"))
 
@@ -312,7 +314,7 @@ object DataKataN5 {
 
         kataGanti.add(N5("mereka(laki-laki)", "かれ たち, かれら", "kare tachi, karera"))
 
-        kataGanti.add(N5("mereka(perempuan)", "かのじょお たち, かのじょおら", "kanojoo tachi, kanojoora"))
+        kataGanti.add(N5("mereka(perempuan)", "かのじょ たち, かのじょら", "kanojo tachi, kanojora"))
 
         kataGanti.add(N5("diri sendiri", "じぶん", "jibun"))
 
@@ -362,5 +364,191 @@ object DataKataN5 {
         manusiaTubuh.add(N5("kaki", "あし", "ashi"))
 
         return manusiaTubuh
+    }
+
+    //76
+    fun kategoriKeluarga(): ArrayList<N5> {
+        val keluarga = ArrayList<N5>()
+
+        keluarga.add(N5("keluarga", "かぞく", "kazoku"))
+
+        keluarga.add(N5("rumah tangga", "かてい", "katei"))
+
+        keluarga.add(N5("kakek", "おじいさん", "ojiisan"))
+
+        keluarga.add(N5("nenek", "おばあさん", "obaasan"))
+
+        keluarga.add(N5("bapak", "おとうさん, ちち", "otousan, chichi"))
+
+        keluarga.add(N5("ibu", "おかあさん, はは", "okaasan, haha"))
+
+        keluarga.add(N5("orang tua", "りょうしん", "ryoushin"))
+
+        keluarga.add(N5("paman", "おじさん", "ojisan"))
+
+        keluarga.add(N5("tante", "おばさん", "obasan"))
+
+        keluarga.add(N5("saudara", "きょうだい", "kyoudai"))
+
+        keluarga.add(N5("kakak laki-laki", "おにいさん, あに", "oniisan, ani"))
+
+        keluarga.add(N5("kakak perempuan", "おねえさん, あね", "oneesan, ane"))
+
+        keluarga.add(N5("adik laki-laki", "おとうとさん, おとうと", "otoutosan, otouto"))
+
+        keluarga.add(N5("adik perempuan", "いもうとさん, いもうと", "imoutosan, imouto"))
+
+        return keluarga
+    }
+
+    //77
+    fun kategoriAlam(): ArrayList<N5> {
+        val alam = ArrayList<N5>()
+
+        alam.add(N5("cuaca, udara", "てんき", "tenki"))
+
+        alam.add(N5("langit", "そら", "sora"))
+
+        alam.add(N5("berawan, mendung", "くもり", "kumori"))
+
+        alam.add(N5("udara cerah", "はれ", "hare"))
+
+        alam.add(N5("angin", "かぜ", "kaze"))
+
+        alam.add(N5("hujan", "あめ", "ame"))
+
+        alam.add(N5("salju", "ゆき", "yuki"))
+
+        alam.add(N5("air", "みず", "mizu"))
+
+        alam.add(N5("laut", "うみ", "umi"))
+
+        alam.add(N5("sungai", "かわ", "kawa"))
+
+        alam.add(N5("kolam", "いけ", "ike"))
+
+        alam.add(N5("gunung", "やま", "yama"))
+
+        alam.add(N5("pohon, kayu", "き", "ki"))
+
+        alam.add(N5("bunga", "はな", "hana"))
+
+        return alam
+    }
+
+    //77
+    fun kategoriMusim(): ArrayList<N5> {
+        val musim = ArrayList<N5>()
+
+        musim.add(N5("musim semi", "はる", "haru"))
+
+        musim.add(N5("musim panas", "なつ", "natsu"))
+
+        musim.add(N5("musim gugur", "あき", "aki"))
+
+        musim.add(N5("musim dingin", "ふゆ", "fuyu"))
+
+        return musim
+    }
+
+    //77-78
+    fun kategoriBinatang(): ArrayList<N5> {
+        val binatang = ArrayList<N5>()
+
+        binatang.add(N5("binatang", "どうぶつ", "doubutsu"))
+
+        binatang.add(N5("binatang peliharaan", "ぺっと", "petto"))
+
+        binatang.add(N5("anjing", "いぬ", "inu"))
+
+        binatang.add(N5("kucing", "ねこ", "neko"))
+
+        binatang.add(N5("burung", "とり", "tori"))
+
+        binatang.add(N5("ayam", "にわとり", "niwatori"))
+
+        binatang.add(N5("ikan", "さかな", "sakana"))
+
+        binatang.add(N5("udang", "えび", "ebi"))
+
+        return binatang
+    }
+
+    //78-79
+    fun kategoriBenda(): ArrayList<N5> {
+        val benda = ArrayList<N5>()
+
+        benda.add(N5("barang", "もの", "mono"))
+
+        benda.add(N5("topi", "ぼうし", "boushi"))
+
+        benda.add(N5("payung", "かさ", "kasa"))
+
+        benda.add(N5("kacamata", "めがね", "megane"))
+
+        benda.add(N5("sapu-tangan", "はんかち", "hankachi"))
+
+        benda.add(N5("handuk", "たおる", "taoru"))
+
+        benda.add(N5("sabun", "せっけん", "sekken"))
+
+        benda.add(N5("shampo", "しゃんぷう", "shanpuu"))
+
+        benda.add(N5("dompet", "さいふ", "saifu"))
+
+        benda.add(N5("uang", "おかね", "okane"))
+
+        benda.add(N5("sandal", "すりっぱ", "surippa"))
+
+        benda.add(N5("kaos kaki", "くつした", "kutsushita"))
+
+        benda.add(N5("sepatu", "くつぃ", "kutsi"))
+
+        benda.add(N5("barang bawaan", "にもつ", "nimotsu"))
+
+        benda.add(N5("tas", "かばん", "kaban"))
+
+        benda.add(N5("rokok","たばこ", "tabako"))
+
+        benda.add(N5("korek api", "まっち", "macchi"))
+
+        benda.add(N5("obat", "くすり", "kusuri"))
+
+        benda.add(N5("kunci", "かぎ", "kagi"))
+
+        benda.add(N5("koran", "しんぶん", "shinbun"))
+
+        benda.add(N5("majalah", "ざっし", "zasshi"))
+
+        return benda
+    }
+
+    //79
+    fun kategoriPakaian(): ArrayList<N5> {
+        val pakaian = ArrayList<N5>()
+
+        pakaian.add(N5("pakaian", "ようふく, ふく", "youfuku, fuku"))
+
+        pakaian.add(N5("mantel", "こおと", "kooto"))
+
+        pakaian.add(N5("baju hangat, sweter", "せえたあ", "seetaa"))
+
+        pakaian.add(N5("jas", "せびろ", "sebiro"))
+
+        pakaian.add(N5("jaket", "じゃけっと", "jaketto"))
+
+        pakaian.add(N5("kemeja", "わいしゃつ, しゃつ", "waishatsu, shatsu"))
+
+        pakaian.add(N5("dasi", "ねくたい", "nekutai"))
+
+        pakaian.add(N5("rok", "すかあと", "sukaato"))
+
+        pakaian.add(N5("celana panjang", "ずぼん", "zubon"))
+
+        pakaian.add(N5("saku", "ぽけっと", "poketto"))
+
+        pakaian.add(N5("kancing baju", "ぼたん", "botan"))
+
+        return pakaian
     }
 }
