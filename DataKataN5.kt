@@ -551,4 +551,236 @@ object DataKataN5 {
 
         return pakaian
     }
+
+    //79-80
+    fun kategoriMakananMinuman(): ArrayList<N5> {
+        val makanMinum = ArrayList<N5>()
+
+        makanMinum.add(N5("makanan", "たべもの", "tabemono"))
+
+        makanMinum.add(N5("minuman", "のみもの", "nomimono"))
+
+        makanMinum.add(N5("nasi", "ごはん", "gohan"))
+
+        makanMinum.add(N5("makan pagi", "あさ ごはん", "asa gohan"))
+
+        makanMinum.add(N5("makan siang", "ひる ごはん", "hiru gohan"))
+
+        makanMinum.add(N5("makan malam", "ばん'ごはん, ゆうはん ", "ban'gohan, yuuhan"))
+
+        makanMinum.add(N5("makanan bekal", "おべんとう", "obentou"))
+
+        makanMinum.add(N5("masakan", "りょうり", "ryouri"))
+
+        makanMinum.add(N5("daging", "にく", "niku"))
+
+        makanMinum.add(N5("daging sapi", "ぎゅうにく", "gyuuniku"))
+
+        makanMinum.add(N5("daging babi", "ぶたにく", "butaniku"))
+
+        makanMinum.add(N5("daging ayam", "とりぬく, ちきん", "toriniku, chikin"))
+
+        makanMinum.add(N5("sayur", "やさい", "yasai"))
+
+        makanMinum.add(N5("salad", "さらだ", "sarada"))
+
+        makanMinum.add(N5("tomat", "とまと", "tomato"))
+
+        makanMinum.add(N5("buah-buahan", "くだもの", "kudamono"))
+
+        makanMinum.add(N5("apel", "りん'ご", "rin'go"))
+
+        makanMinum.add(N5("jeruk", "みかん", "mikan"))
+
+        makanMinum.add(N5("pisang", "ばなな", "banana"))
+
+        makanMinum.add(N5("roti", "ぱん", "pan"))
+
+        makanMinum.add(N5("mentega", "ばたあ", "bataa"))
+
+        makanMinum.add(N5("telur", "たまご", "tamago"))
+
+        makanMinum.add(N5("susu", "ぎゅんにゅう, みるく", "gyuunyuu, miruku"))
+
+        makanMinum.add(N5("teh hijau", "おちゃ", "ocha"))
+
+        makanMinum.add(N5("teh", "こうちゃ", "koucha"))
+
+        makanMinum.add(N5("kopi", "こおひい", "koohii"))
+
+        makanMinum.add(N5("camilan", "おかし", "okashi"))
+
+        makanMinum.add(N5("permen", "あめ", "ame"))
+
+        makanMinum.add(N5("sake", "おさけ", "osake"))
+
+        return makanMinum
+    }
+
+    //80-81
+    fun kategoriHobi(): ArrayList<N5> {
+        val hobi = ArrayList<N5>()
+
+        hobi.add(N5("musik", "おんがく", "ongaku"))
+
+        hobi.add(N5("lagu", "うた", "uta"))
+
+        hobi.add(N5("gitar", "ぎたあ", "gitaa"))
+
+        hobi.add(N5("piringan hitam", "れこおど", "rekoodo"))
+
+        hobi.add(N5("film", "えいが", "eiga"))
+
+        hobi.add(N5("darmawisata", "りょこう", "ryokou"))
+
+        hobi.add(N5("foto", "しゃしん", "shashin"))
+
+        hobi.add(N5("kamera", "かめら", "kamera"))
+
+        hobi.add(N5("olahraga", "すぽおつ", "supootsu"))
+
+        hobi.add(N5("pesta", "ぱあてぃ", "paati"))
+
+        return hobi
+    }
+
+    //81
+    fun kategoriKota(): ArrayList<N5> {
+        val kota = ArrayList<N5>()
+
+        kota.add(N5("desa", "むら", "mura"))
+
+        kota.add(N5("kota", "まち", "machi"))
+
+        kota.add(N5("jalan", "みち", "michi"))
+
+        kota.add(N5("tikungan, belokan", "かど", "kado"))
+
+        kota.add(N5("persimpangan jalan", "こうさてん", "kousaten"))
+
+        kota.add(N5("jembatan", "ばし", "bashi"))
+
+        kota.add(N5("taman", "こうえん", "kouen"))
+
+        kota.add(N5("kolam renang", "ぷうる", "puuru"))
+
+        kota.add(N5("lapangan tenis", "てにす こおと", "tenisu kooto"))
+
+        kota.add(N5("peta", "ちず", "chizu"))
+
+        return kota
+    }
+
+    //81-82
+    fun kategoriTransportasi(): ArrayList<N5> {
+        val transportasi = ArrayList<N5>()
+
+        transportasi.add(N5("mobil, kendaraan", "くるま", "kuruma"))
+
+        transportasi.add(N5("mobil", "じどうしゃ", "jidousha"))
+
+        transportasi.add(N5("sepeda", "じてんしゃ", "jitensha"))
+
+        transportasi.add(N5("motor", "おとばいく", "otobaiku"))
+
+        transportasi.add(N5("taksi", "たくしい", "takushii"))
+
+        transportasi.add(N5("bis", "ばす", "basu"))
+
+        transportasi.add(N5("kereta listrik", "でんしゃ", "densha"))
+
+        transportasi.add(N5("kereta bawah tanah", "ちかてつ", "chikatetsu"))
+
+        transportasi.add(N5("pesawat terbang", "ひこうき", "hikouki"))
+
+        transportasi.add(N5("karcis, tiket", "きっぷ", "kippu"))
+
+        return transportasi
+    }
+
+    //82
+    fun kategoriSekolah(): ArrayList<N5> {
+        val sekolah = ArrayList<N5>()
+
+        sekolah.add(N5("sekolah", "がっこう", "gakkou"))
+
+        sekolah.add(N5("universitas", "だいがく", "daigaku"))
+
+        sekolah.add(N5("kelas", "きょうしつ", "kyoushitsu"))
+
+        sekolah.add(N5("perpustakaan", "としょかん", "toshokan"))
+
+        sekolah.add(N5("pelajaran", "じゅうぎょう", "juugyou"))
+
+        sekolah.add(N5("kata-kata", "ことば", "kotoba"))
+
+        sekolah.add(N5("bahasa inggris", "えいご", "eigo"))
+
+        sekolah.add(N5("(huruf) kanji", "かんじ", "kanji"))
+
+        sekolah.add(N5("kalimat", "ぶんしょう", "bunshou"))
+
+        sekolah.add(N5("karangan", "さくぶん", "sakubun"))
+
+        sekolah.add(N5("kamus", "じしょ, じびき", "jisho, jibiki"))
+
+        sekolah.add(N5("arti", "いみ", "imi"))
+
+        sekolah.add(N5("pekerjaan rumah,PR", "しゅくだい", "shukudai"))
+
+        sekolah.add(N5("test, ulangan, ujian", "てすと, しけん", "tesuto, shiken"))
+
+        return sekolah
+    }
+
+    //82-83
+    fun kategoriBangunan(): ArrayList<N5> {
+        val bangunan = ArrayList<N5>()
+
+        bangunan.add(N5("bangunan", "たてもの", "tatemono"))
+
+        bangunan.add(N5("apartemen", "あぱと", "apato"))
+
+        bangunan.add(N5("rumah", "ぇ", "le"))
+
+        bangunan.add(N5("hotel", "ほてる", "hoteru"))
+
+        bangunan.add(N5("toko serba-ada", "でぱあと", "depaato"))
+
+        bangunan.add(N5("stasiun", "えき", "eki"))
+
+        bangunan.add(N5("rumah sakit", "びょういん", "byouin"))
+
+        bangunan.add(N5("bioskop", "えいがかん", "eigakan"))
+
+        bangunan.add(N5("bank", "ぎんこう", "ginkou"))
+
+        bangunan.add(N5("kantor pos", "ゆうびんきょく", "yuubinkyoku"))
+
+        bangunan.add(N5("kedutaan", "たいしかん", "taishikan"))
+
+        bangunan.add(N5("pos polisi", "こうばん", "kouban"))
+
+        bangunan.add(N5("kantor", "かいしゃ", "kaisha"))
+
+        bangunan.add(N5("restoran", "れすとらん", "resutoran"))
+
+        bangunan.add(N5("kedai kopi", "きっさてん", "kissaten"))
+
+        bangunan.add(N5("toko", "みせ", "mise"))
+
+        bangunan.add(N5("penjual sayur", "やおや", "yaoya"))
+
+        bangunan.add(N5("lift, elevator", "えれべえたあ", "erebeetaa"))
+
+        bangunan.add(N5("tangga", "かいだん", "kaidan"))
+
+        bangunan.add(N5("tangga berjalan", "えすかれえたあ", "esukareetaa"))
+
+        bangunan.add(N5("pintu masuk", "いりぐち", "iriguchi"))
+
+        bangunan.add(N5("pintu keluar", "でぐち", "deguchi"))
+
+        return bangunan
+    }
 }
