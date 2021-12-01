@@ -783,4 +783,291 @@ object DataKataN5 {
 
         return bangunan
     }
+
+    //83-84
+    fun kategoriRumah(): ArrayList<N5> {
+        val rumah = ArrayList<N5>()
+
+        rumah.add(N5("pintu gerbang", "もん", "mon"))
+
+        rumah.add(N5("pekarangan", "にわ", "niwa"))
+
+        rumah.add(N5("pintu depan", "げんかん", "genkan"))
+
+        rumah.add(N5("pintu", "どあ", "doa"))
+
+        rumah.add(N5("jendela", "まど", "mado"))
+
+        rumah.add(N5("ruang tamu", "いま", "ima"))
+
+        rumah.add(N5("dapur", "だいどころ", "daidokoro"))
+
+        rumah.add(N5("ruang makan", "しょくどう", "shokudou"))
+
+        rumah.add(N5("kamar, ruang", "へや", "heya"))
+
+        rumah.add(N5("kamar mandi", "ふろば", "furoba"))
+
+        rumah.add(N5("shower", "しゃわあ", "shawaa"))
+
+        rumah.add(N5("kamar kecil, toilet", "といれ, おてあらい", "toire, otearai"))
+
+        rumah.add(N5("lorong", "ろうか", "rouka"))
+
+        rumah.add(N5("listrik", "でんき", "denki"))
+
+        rumah.add(N5("saluran air, ledeng", "すいどう", "suidou"))
+
+        return rumah
+    }
+
+    //84-85
+    fun kategoriPeralatanRumah(): ArrayList<N5> {
+        val peralRumah = ArrayList<N5>()
+
+        peralRumah.add(N5("sofa", "そふぁ", "sof(u)a"))
+
+        peralRumah.add(N5("kursi", "いす", "isu"))
+
+        peralRumah.add(N5("meja", "つけ, てえぶる", "tsuke, teeburu"))
+
+        peralRumah.add(N5("rak buku", "ほんだな", "hondana"))
+
+        peralRumah.add(N5("ranjang, tempat tidur", "ベット", "beddo"))
+
+        peralRumah.add(N5("tempat tidur ala jepang", "ふとん", "futon"))
+
+        peralRumah.add(N5("AC, pendingin ruangan", "れいぼう", "reibou"))
+
+        peralRumah.add(N5("pemanas ruangan", "だんぼう, すとおぶ", "danbou, sutoobu"))
+
+        peralRumah.add(N5("pengatur suhu udara", "れいだんぼう", "reidanbou"))
+
+        peralRumah.add(N5("kulkas, lemari es", "れいぞうこ", "reizouko"))
+
+        peralRumah.add(N5("televisi", "てれび", "terebi"))
+
+        peralRumah.add(N5("tape recorder", "てえぷれこおだあ", "teepurekoodaa"))
+
+        peralRumah.add(N5("radio", "らじお", "rajio"))
+
+        peralRumah.add(N5("radio kaset", "らじかせ, らじかせっと", "rajikase, rajikasetto"))
+
+        peralRumah.add(N5("telepon", "でんわ", "denwa"))
+
+        peralRumah.add(N5("gambar, lukisan", "え", "e"))
+
+        peralRumah.add(N5("kalender", "かれんだあ", "karendaa"))
+
+        peralRumah.add(N5("jam(dinding)", "とけい", "tokei"))
+
+        peralRumah.add(N5("vas bunga", "かびん", "kabin"))
+
+        peralRumah.add(N5("asbak", "はいざら", "haizara"))
+
+        return peralRumah
+    }
+
+    //84-85
+    fun kategoriPeralatanMakan(): ArrayList<N5> {
+        val peralMakan = ArrayList<N5>()
+
+        peralMakan.add(N5("piring", "さら", "sara"))
+
+        peralMakan.add(N5("sendok", "すぷうん", "supuun"))
+
+        peralMakan.add(N5("garpu", "ふぉおく", "fooku"))
+
+        peralMakan.add(N5("pisau", "ないふ", "naifu"))
+
+        peralMakan.add(N5("mangkok nasi", "ちゃわん", "chawan"))
+
+        peralMakan.add(N5("sumpit", "はし", "hashi"))
+
+        peralMakan.add(N5("gelas", "こっぷ", "koppu"))
+
+        peralMakan.add(N5("cangkir", "かっぷ", "kappu"))
+
+        return peralMakan
+    }
+
+    //85
+    fun kategoriBumbu(): ArrayList<N5> {
+        val bumbu = ArrayList<N5>()
+
+        bumbu.add(N5("gula pasir", "さとう", "satou"))
+
+        bumbu.add(N5("garam", "しお", "shio"))
+
+        bumbu.add(N5("lada, merica", "こしょう", "koshou"))
+
+        bumbu.add(N5("kecap asin", "しょうゆ", "shouyu"))
+
+        bumbu.add(N5("bumbu dapur", "ちょうみりょう", "choumiryou"))
+
+        return bumbu
+    }
+
+    //86
+    fun kategoriAlatTulis(): ArrayList<N5> {
+        val alatTulis = ArrayList<N5>()
+
+        alatTulis.add(N5("kertas", "かみ", "kami"))
+
+        alatTulis.add(N5("pulpen", "ぼおるぺん", "boorupen"))
+
+        alatTulis.add(N5("pen tinta", "まんねんひつ", "mannenhitsu"))
+
+        alatTulis.add(N5("pensil", "えんぴつ", "enpitsu"))
+
+        alatTulis.add(N5("buku", "ほん", "hon"))
+
+        alatTulis.add(N5("buku tulis, notes", "のおと", "nooto"))
+
+        alatTulis.add(N5("kertas surat", "てがみ", "tegami"))
+
+        alatTulis.add(N5("perangko", "きって", "kitte"))
+
+        alatTulis.add(N5("kartu pos", "はがき", "hagaki"))
+
+        alatTulis.add(N5("amplop", "ふうとう", "fuutou"))
+
+        alatTulis.add(N5("pita, selotip", "てえぷ", "teepu"))
+
+        alatTulis.add(N5("kotak, box", "はこ", "hako"))
+
+        return alatTulis
+    }
+
+    //86
+    fun kategoriJabatanKerja(): ArrayList<N5> {
+        val jabatan = ArrayList<N5>()
+
+        jabatan.add(N5("pekerjaan", "しごと", "shigoto"))
+
+        jabatan.add(N5("dokter", "いしゃ", "isha"))
+
+        jabatan.add(N5("polisi", "けいかん", "keikan"))
+
+        jabatan.add(N5("polisi patroli", "おまわりさん", "omawarisan"))
+
+        jabatan.add(N5("guru, pengajar", "せんせい", "sensei"))
+
+        jabatan.add(N5("murid", "せいと", "seito"))
+
+        jabatan.add(N5("pelajar, mahasiswa", "がくせい", "gakusei"))
+
+        jabatan.add(N5("pelajar asing", "りゅうがくせい", "ryuugakusei"))
+
+        return jabatan
+    }
+
+    //87
+    fun kategoriArah(): ArrayList<N5> {
+        val arah = ArrayList<N5>()
+
+        arah.add(N5("atas", "うえ", "ue"))
+
+        arah.add(N5("bawah", "した", "shita"))
+
+        arah.add(N5("depan", "まえ", "mae"))
+
+        arah.add(N5("belakang", "うしろ", "ushiro"))
+
+        arah.add(N5("luar", "そと", "soto"))
+
+        arah.add(N5("dalam", "なか", "naka"))
+
+        arah.add(N5("seberang sana", "むこう", "mukou"))
+
+        arah.add(N5("seberang sini", "てまえ", "temae"))
+
+        arah.add(N5("kanan", "みぎ", "migi"))
+
+        arah.add(N5("kiri", "ひだり", "hidari"))
+
+        arah.add(N5("sebelah tetangga", "となり", "tonari"))
+
+        arah.add(N5("samping", "よこ", "yoko"))
+
+        arah.add(N5("sekitar", "へん", "hen"))
+
+        arah.add(N5("dekat sini", "ちかく", "chikaku"))
+
+        arah.add(N5("timur", "ひがし", "higashi"))
+
+        arah.add(N5("barat", "にし", "nishi"))
+
+        arah.add(N5("utara", "きた", "kita"))
+
+        arah.add(N5("selatan", "みなみ ", "minami"))
+
+        return arah
+    }
+
+    //87-88
+    fun kategoriPenunjuk(): ArrayList<N5> {
+        val penunjuk = ArrayList<N5>()
+
+        penunjuk.add(N5("ini", "これ", "kore"))
+
+        penunjuk.add(N5("itu", "それ", "sore"))
+
+        penunjuk.add(N5("itu(jauh)", "あれ", "are"))
+
+        penunjuk.add(N5("benda ini", "この", "kono"))
+
+        penunjuk.add(N5("benda itu", "その", "sono"))
+
+        penunjuk.add(N5("benda itu(jauh)", "あの", "ano"))
+
+        penunjuk.add(N5("sini", "ここ", "koko"))
+
+        penunjuk.add(N5("situ", "そこ", "soko"))
+
+        penunjuk.add(N5("sana", "あそこ", "asoko"))
+
+        penunjuk.add(N5("arah sini", "こちら, こっち", "kochira, kocchi"))
+
+        penunjuk.add(N5("arah situ", "そちら, そっち", "sochira, socchi"))
+
+        penunjuk.add(N5("arah sana", "あちら, あっち", "achira, acchi"))
+
+        penunjuk.add(N5("begini, demikian ini", "こんな", "konna"))
+
+        penunjuk.add(N5("begitu, demikian itu", "そんな", "sonna"))
+
+        penunjuk.add(N5("begitu, demikian itu", "あんな", "anna"))
+
+        return penunjuk
+    }
+
+    //88
+    fun kategoriKataTanya(): ArrayList<N5> {
+        val tanya = ArrayList<N5>()
+
+        tanya.add(N5("apa", "なに", "nani"))
+
+        tanya.add(N5("siapa", "だれ, どなた", "dare, donata"))
+
+        tanya.add(N5("mengapa", "なんで, どうして", "nande, doushite"))
+
+        tanya.add(N5("dimana", "どこ", "doko"))
+
+        tanya.add(N5("arah mana(pilihan 2 benda)", "どちら, どっち", "dochira, docchi"))
+
+        tanya.add(N5("yang mana", "どの", "dono"))
+
+        tanya.add(N5("yang mana(pilihan 3 benda)", "どれ", "dore"))
+
+        tanya.add(N5("kapan", "いつ", "itsu"))
+
+        tanya.add(N5("berapa harganya", "いくら", "ikura"))
+
+        tanya.add(N5("berapa buah, umur berapa", "いくつ", "ikutsu"))
+
+        tanya.add(N5("bagaimana", "いかが, どう", "ikaga, dou"))
+
+        return tanya
+    }
 }
