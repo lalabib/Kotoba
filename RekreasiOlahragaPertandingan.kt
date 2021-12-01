@@ -1,0 +1,130 @@
+package com.example.kotoba
+
+object RekreasiOlahragaPertandingan {
+    fun getKotoba(): ArrayList<N4> {
+        ArrayList<N4>().also {
+            it.apply {
+                add(
+                    N4(
+                        "Permainan, Hiburan",
+                        "あそび",
+                        "Asobi"
+                    )
+                )
+                add(
+                    N4(
+                        "Acara",
+                        "ばんぐみ",
+                        "Bangumi"
+                    )
+                )
+                add(
+                    N4(
+                        "Judo",
+                        "じゅうどう",
+                        "Juudou"
+                    )
+                )
+                add(
+                    N4(
+                        "Lihat - lihat, Melancong",
+                        "けんぶつ",
+                        "Kenbutsu"
+                    )
+                )
+                add(
+                    N4(
+                        "Konser",
+                        "コンサート",
+                        "Konsaato"
+                    )
+                )
+                add(
+                    N4(
+                        "Minat",
+                        "きょうみ",
+                        "Kyoumi"
+                    )
+                )
+                add(
+                    N4(
+                        "Persaingan",
+                        "きょうそう",
+                        "Kyousou"
+                    )
+                )
+                add(
+                    N4(
+                        "Manga, Komik Jepang",
+                        "まんが",
+                        "Manga"
+                    )
+                )
+                add(
+                    N4(
+                        "Tarian",
+                        "おどり",
+                        "Odori"
+                    )
+                )
+                add(
+                    N4(
+                        "Mainan",
+                        "おもちゃ",
+                        "Omocha"
+                    )
+                )
+                add(
+                    N4(
+                        "Bunyi",
+                        "おと",
+                        "Oto"
+                    )
+                )
+                add(
+                    N4(
+                        "Pertandingan",
+                        "しあい",
+                        "Shiai"
+                    )
+                )
+                add(
+                    N4(
+                        "Buku cerita, Novel",
+                        "しょうせつ",
+                        "Shousetsu"
+                    )
+                )
+                add(
+                    N4(
+                        "Hobi",
+                        "しゅみ",
+                        "Shumi"
+                    )
+                )
+                add(
+                    N4(
+                        "Renang",
+                        "すいえい",
+                        "Suiei"
+                    )
+                )
+                add(
+                    N4(
+                        "Menanti dengan penuh harapan",
+                        "たのしみ",
+                        "Tanoshimi"
+                    )
+                )
+                add(
+                    N4(
+                        "Tennis",
+                        "テニス",
+                        "Tenisu"
+                    )
+                )
+            }
+            return it
+        }
+    }
+}
