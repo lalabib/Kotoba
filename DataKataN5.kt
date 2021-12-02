@@ -1070,4 +1070,55 @@ object DataKataN5 {
 
         return tanya
     }
+
+    //88-89
+    fun kategoriKataSambung(): ArrayList<N5> {
+        val sambung = ArrayList<N5>()
+
+        sambung.add(N5("dan, lalu", "そして", "soshite"))
+
+        sambung.add(N5("tepat, pas", "ちょうど", "choudo"))
+
+        sambung.add(N5("berikut, selanjutnya", "つぎ", "tsugi"))
+
+        sambung.add(N5("kadang-kadang", "ときどき", "tokidoki"))
+
+        sambung.add(N5("selalu", "いつも", "itsumo"))
+
+        sambung.add(N5("sering, dengan baik", "よく", "yoku"))
+
+        sambung.add(N5("kalau begitu", "じゃ, じゃあ", "ja, jaa"))
+
+        sambung.add(N5("nah!", "さあ", "saa"))
+
+        sambung.add(N5("dan lain-lain", "など", "nado"))
+
+        sambung.add(N5("mula-mula, pertama-tama", "はじめ", "hajime"))
+
+        sambung.add(N5("pertama kali", "はじめて", "hajimete"))
+
+        sambung.add(N5("terakhir", "さいご", "saigo"))
+
+        sambung.add(N5("tidak apa-apa", "だいじょうぶ", "daijoubu"))
+
+        sambung.add(N5("panjangnya", "たて", "tate"))
+
+        sambung.add(N5("lebarnya", "よこ", "yoko"))
+
+        sambung.add(N5("yang lain", "ほか", "hoka"))
+
+        sambung.add(N5("sungguh-sungguh, benar-benar", "ほんとう に", "hontou ni"))
+
+        sambung.add(N5("belum, masih", "まだ", "mada"))
+
+        sambung.add(N5("sudah, lagi", "もう", "mou"))
+
+        sambung.add(N5("lebih", "もっと", "motto"))
+
+        sambung.add(N5("perlahan-lahan", "ゆっくり", "yukkuri"))
+
+        sambung.add(N5("cepat-cepat", "はやく", "hayaku"))
+        
+        return sambung
+    }
 }
