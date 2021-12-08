@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Kotoba</string>
+
+    <string name="start">Mulai</string>
+    <string name="instruksi">Instruksi</string>
+    <string name="close">Tutup</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="instruksi_txt">Kotoba adalah sebuah aplikasi untuk menghafal kosakata bahasa jepang</string>
+    <string name="instruksi_detail">Cara penggunaan aplkasi kotoba sebaga berikut: </string>
+</resources>
