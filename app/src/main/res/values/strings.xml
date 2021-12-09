@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Kotoba</string>
+
+    <string name="start">Mulai</string>
+    <string name="instruksi">Instruksi</string>
+    <string name="close">Tutup</string>
+    <string name="kategori">Kategori</string>
+    <string name="gambar">gambar</string>
+
+    <string name="go_n5">Menghafal Kosakata N5</string>
+    <string name="go_n4">Menghafal Kosakata N4</string>
+    <string name="kanji_n5">Level N5 menguasai Kanji sekitar: 100</string>
+    <string name="kosakata_n5">Menguasai kosakata sekitar: 800</string>
+    <string name="text_n5">Dan bisa memahami kalimat standar jika ditulis dengan hiragana atau dengan kanji yang sangat sederhana. </string>
+    <string name="kanji_n4">Level N4 menguasai Kanji sekitar: 300</string>
+    <string name="kosakata_n4">Menguasai kosakata sekitar: 1500</string>
+    <string name="text_n4">dan dapat mengerti percakapan sehari-hari, jika diucapkan dengan lambat, dan dapat membaca materi sederhana</string>
+
+    <string name="instruksi_txt">Kotoba adalah sebuah aplikasi penghapal kosakata Bahasa Jepang berdasarkan N5 dan N4 untuk memudahkan dalam ujian JLPT (Japanese Language Proficiency Test) dan berkomunikasi secara langsung</string>
+    <string name="instruksi_detail">Cara penggunaan aplkasi kotoba sebaga berikut: </string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
