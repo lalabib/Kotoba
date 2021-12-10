@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Kotoba">
         <activity
+            android:name=".ui.kategori.n4.KategoriN4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.kategori.n5.KategoriN5Activity"
             android:exported="false" />
         <activity
