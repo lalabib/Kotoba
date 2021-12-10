@@ -1,7 +1,5 @@
 package com.capstone.project.kotoba.data.n4
 
-package com.example.kotoba
-
 object DataKataN4 {
     fun getAlam(): ArrayList<N4> {
         val alam = ArrayList<N4>()
