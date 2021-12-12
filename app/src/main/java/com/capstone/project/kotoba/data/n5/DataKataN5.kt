@@ -1075,52 +1075,287 @@ object DataKataN5 {
 
         sambung.add(N5("dan, lalu", "そして", "soshite"))
 
-        //salah
+        sambung.add(N5("kemudian, setelah itu", "それから", "sorekara"))
 
-        sambung.add(N5("tepat, pas", "ちょうど", "choudo"))
+        sambung.add(N5("kalau begitu", "でわ, それでわ ", "dewa, soredewa"))
 
-        sambung.add(N5("berikut, selanjutnya", "つぎ", "tsugi"))
+        sambung.add(N5("tetapi", "でも ", "demo"))
 
-        sambung.add(N5("kadang-kadang", "ときどき", "tokidoki"))
+        sambung.add(N5("agak, tidak begitu..", "あまり", "amari"))
 
-        sambung.add(N5("selalu", "いつも", "itsumo"))
+        sambung.add(N5("daripada", "より", "yori"))
 
-        sambung.add(N5("sering, dengan baik", "よく", "yoku"))
+        sambung.add(N5("lebih", "ほう が", "hou ga"))
 
-        sambung.add(N5("kalau begitu", "じゃ, じゃあ", "ja, jaa"))
+        sambung.add(N5("lagi, lagi pula", "また", "mata"))
 
-        sambung.add(N5("nah!", "さあ", "saa"))
+        sambung.add(N5("sebelum..", "の まえ に", "no mae ni"))
 
-        sambung.add(N5("dan lain-lain", "など", "nado"))
+        sambung.add(N5("sesudah..", "た あと で", "ta ato de"))
 
-        sambung.add(N5("mula-mula, pertama-tama", "はじめ", "hajime"))
-
-        sambung.add(N5("pertama kali", "はじめて", "hajimete"))
-
-        sambung.add(N5("terakhir", "さいご", "saigo"))
-
-        sambung.add(N5("tidak apa-apa", "だいじょうぶ", "daijoubu"))
-
-        sambung.add(N5("panjangnya", "たて", "tate"))
-
-        sambung.add(N5("lebarnya", "よこ", "yoko"))
-
-        sambung.add(N5("yang lain", "ほか", "hoka"))
-
-        sambung.add(N5("sungguh-sungguh, benar-benar", "ほんとう に", "hontou ni"))
-
-        sambung.add(N5("belum, masih", "まだ", "mada"))
-
-        sambung.add(N5("sudah, lagi", "もう", "mou"))
-
-        sambung.add(N5("lebih", "もっと", "motto"))
-
-        sambung.add(N5("perlahan-lahan", "ゆっくり", "yukkuri"))
-
-        sambung.add(N5("cepat-cepat", "はやく", "hayaku"))
+        sambung.add(N5("bersama dengan", "と いっしょ に", "to issho ni"))
 
         return sambung
     }
 
+    //89-90
+    fun kategoriKataKeterangan(): ArrayList<N5> {
+        val keterangan = ArrayList<N5>()
 
+        keterangan.add(N5("nomor satu, paling", "いちばん", "ichiban"))
+
+        keterangan.add(N5("sama", "おなじ", "onaji"))
+
+        keterangan.add(N5("banyak", "たくさん", "takusan"))
+
+        keterangan.add(N5("banyak(manusia), ramai", "おおぜい", "oozei"))
+
+        keterangan.add(N5("cukup, bagus", "けっこう", "kekkou"))
+
+        keterangan.add(N5("sangat", "とても", "totemo"))
+
+        keterangan.add(N5("sedikit, agak", "すこし", "sukoshi"))
+
+        keterangan.add(N5("kurang", "すくまい", "sukumai"))
+
+        keterangan.add(N5("semua, setiap orang, anda sekalian", "みな, みなさん", "mina, minasan"))
+
+        keterangan.add(N5("seluruh, semua", "ぜんぶ", "zenbu"))
+
+        keterangan.add(N5("separuh, setengah", "はんぶん", "hanbun"))
+
+        keterangan.add(N5("barangkali", "たぶん", "tabun"))
+
+        keterangan.add(N5("lambat laun", "だんだん", "dandan"))
+
+        keterangan.add(N5("agak, sedikit, sebentar", "ちょっと", "chotto"))
+
+        keterangan.add(N5("tepat, pas", "ちょうど", "choudo"))
+
+        keterangan.add(N5("berikut, selanjutnya", "つぎ", "tsugi"))
+
+        keterangan.add(N5("kadang-kadang", "ときどき", "tokidoki"))
+
+        keterangan.add(N5("selalu", "いつも", "itsumo"))
+
+        keterangan.add(N5("sering, dengan baik", "よく", "yoku"))
+
+        keterangan.add(N5("kalau begitu", "じゃ, じゃあ", "ja, jaa"))
+
+        keterangan.add(N5("nah!", "さあ", "saa"))
+
+        keterangan.add(N5("dan lain-lain", "など", "nado"))
+
+        keterangan.add(N5("mula-mula, pertama-tama", "はじめ", "hajime"))
+
+        keterangan.add(N5("pertama kali", "はじめて", "hajimete"))
+
+        keterangan.add(N5("terakhir", "さいご", "saigo"))
+
+        keterangan.add(N5("tidak apa-apa", "だいじょうぶ", "daijoubu"))
+
+        keterangan.add(N5("panjangnya", "たて", "tate"))
+
+        keterangan.add(N5("lebarnya", "よこ", "yoko"))
+
+        keterangan.add(N5("yang lain", "ほか", "hoka"))
+
+        keterangan.add(N5("sungguh-sungguh, benar-benar", "ほんとう に", "hontou ni"))
+
+        keterangan.add(N5("belum, masih", "まだ", "mada"))
+
+        keterangan.add(N5("sudah, lagi", "もう", "mou"))
+
+        keterangan.add(N5("lebih", "もっと", "motto"))
+
+        keterangan.add(N5("perlahan-lahan", "ゆっくり", "yukkuri"))
+
+        keterangan.add(N5("cepat-cepat", "はやく", "hayaku"))
+
+        return keterangan
+    }
+
+
+    //90-91
+    fun kategoriKataSifatI(): ArrayList<N5> {
+        val sifatI = ArrayList<N5>()
+
+        sifatI.add(N5("biru", "あおい", "aoi"))
+
+        sifatI.add(N5("bahaya", "あぶない", "abunai"))
+
+        sifatI.add(N5("merah", "あかい", "akai"))
+
+        sifatI.add(N5("terang, cerah, ceria", "あかるい", "akarui"))
+
+        sifatI.add(N5("manis", "あまい", "amai"))
+
+        sifatI.add(N5("baru", "あたらしい", "atarashii"))
+
+        sifatI.add(N5("hangat", "あたたかい", "atatakai"))
+
+        sifatI.add(N5("tebal, dalam, ramah", "いつい", "itsui"))
+
+        sifatI.add(N5("panas(cuaca)", "あつい", "atsui"))
+
+        sifatI.add(N5("panas(benda)", "アツイ", "atsui"))
+
+        sifatI.add(N5("kecil", "ちいさい", "chiisai"))
+
+        sifatI.add(N5("dekat", "ちかい", "chikai"))
+
+        sifatI.add(N5("kuno, tua", "ふるい", "furui"))
+
+        sifatI.add(N5("gemuk", "ふとい", "futoi"))
+
+        sifatI.add(N5("cepat(waktu)", "はやい", "hayai"))
+
+        sifatI.add(N5("cepat(laju)", "ハヤイ", "hayai"))
+
+        sifatI.add(N5("rendah", "ひくい", "hikui"))
+
+        sifatI.add(N5("luas, lapang", "ひろい", "hiroi"))
+
+        sifatI.add(N5("ingin", "ほしい", "hoshii"))
+
+        sifatI.add(N5("kurus", "ほそい", "hosoi"))
+
+        sifatI.add(N5("baik, bagus", "いい, よい", "ii, yoi"))
+
+        sifatI.add(N5("sibuk", "いそがしい", "isogashii"))
+
+        sifatI.add(N5("sakit", "いたい", "itai"))
+
+        sifatI.add(N5("pedas, asin","からい", "karai"))
+
+        sifatI.add(N5("ringan","かるい", "karui"))
+
+        sifatI.add(N5("manis, mungil, lucu","かわいい", "kawaii"))
+
+        sifatI.add(N5("kuning","きいろい", "kiiroi"))
+
+        sifatI.add(N5("kotor","きたない", "kitanai"))
+
+        sifatI.add(N5("gelap","くらい", "kurai"))
+
+        sifatI.add(N5("hitam","くろい", "kuroi"))
+
+        sifatI.add(N5("bulat, bundar","まるい", "marui"))
+
+        sifatI.add(N5("tidak enak, tawar","まずい", "mazui"))
+
+        return sifatI
+    }
+
+    //92
+    fun kategoriKataSifatII(): ArrayList<N5> {
+        val sifatII = ArrayList<N5>()
+
+        sifatII.add(N5("pendek","みじかい", "mijikai"))
+
+        sifatII.add(N5("sukar, susah, sulit","むずかしい", "muzukashii"))
+
+        sifatII.add(N5("panjang","ながい", "nagai"))
+
+        sifatII.add(N5("tidak cukup panas/dingin","ぬるい", "nurui"))
+
+        sifatII.add(N5("enak","おいしい", "oishii"))
+
+        sifatII.add(N5("berat","おもい", "omoi"))
+
+        sifatII.add(N5("menarik","おもしろい", "omoshiroi"))
+
+        sifatII.add(N5("banyak","おおい", "ooi"))
+
+        sifatII.add(N5("besar","おおきい", "ookii"))
+
+        sifatII.add(N5("lambat","おそい", "osoi"))
+
+        sifatII.add(N5("dingin(cuaca)","さむい", "samui"))
+
+        sifatII.add(N5("sempit","せまい", "semai"))
+
+        sifatII.add(N5("putih","しろい", "shiroi"))
+
+        sifatII.add(N5("sedikit, kurang","すくない", "sukunai"))
+
+        sifatII.add(N5("sejuk","すずしい", "suzushii"))
+
+        sifatII.add(N5("mahal, tinggi","たかい", "takai"))
+
+        sifatII.add(N5("menyenangkan","たのしい", "tanoshii"))
+
+        sifatII.add(N5("jauh","とおい", "tooi"))
+
+        sifatII.add(N5("membosankan","つまらない", "tsumaranai"))
+
+        sifatII.add(N5("dingin(benda)","つめたい", "tsumetai"))
+
+        sifatII.add(N5("kuat","つよい", "tsuyoi"))
+
+        sifatII.add(N5("berisik, gaduh, bawel","うるさい", "urusai"))
+
+        sifatII.add(N5("tipis","うすい", "usui"))
+
+        sifatII.add(N5("muda","わかい", "wakai"))
+
+        sifatII.add(N5("jelek, buruk","わるい", "warui"))
+
+        sifatII.add(N5("mudah, gampang","やさしい", "yasashii"))
+
+        sifatII.add(N5("murah","やすい", "yasui"))
+
+        sifatII.add(N5("lemah","よわい", "yowai"))
+
+        return sifatII
+    }
+
+    //93
+    fun kategoriKataSifatNon(): ArrayList<N5> {
+        val sifatNon = ArrayList<N5>()
+
+        sifatNon.add(N5("benci, tidak suka","いや", "iya"))
+
+        sifatNon.add(N5("praktis","べんり", "benri"))
+
+        sifatNon.add(N5("kecil","ちいさ", "chiisa"))
+
+        sifatNon.add(N5("sangat suka","だいすき", "daisuki"))
+
+        sifatNon.add(N5("sehat, besemangat","げんき", "genki"))
+
+        sifatNon.add(N5("tidak mahir, bodoh","へた", "heta"))
+
+        sifatNon.add(N5("senggang","ひま", "hima"))
+
+        sifatNon.add(N5("macam-macam","いろいろ", "iroiro"))
+
+        sifatNon.add(N5("kuat, tahan lama","じょうぶ", "joubu"))
+
+        sifatNon.add(N5("mahir","じょうず", "jouzu"))
+
+        sifatNon.add(N5("benci, tidak suka","きらい", "kirai"))
+
+        sifatNon.add(N5("cantik, bersih","きれい", "kirei"))
+
+        sifatNon.add(N5("ramai, bising","にぎやか", "nigiyaka"))
+
+        sifatNon.add(N5("besar","おおき", "ooki"))
+
+        sifatNon.add(N5("megah","りっぱ", "rippa"))
+
+        sifatNon.add(N5("ramah, baik hati","しんせつ", "shinsetsu"))
+
+        sifatNon.add(N5("tenang","しずか", "shizuka"))
+
+        sifatNon.add(N5("suka","すき", "suki"))
+
+        sifatNon.add(N5("menyusahkan","たいへん", "taihen"))
+
+        sifatNon.add(N5("penting","たいせつ", "taisetsu"))
+
+        sifatNon.add(N5("terkenal, ternama","ゆうめい", "yuumei"))
+
+        return sifatNon
+    }
 }

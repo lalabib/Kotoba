@@ -17,7 +17,7 @@
     <string name="text_n4">dan dapat mengerti percakapan sehari-hari, jika diucapkan dengan lambat, dan dapat membaca materi sederhana</string>
 
     <string name="instruksi_txt">Kotoba adalah sebuah aplikasi penghapal kosakata Bahasa Jepang berdasarkan N5 dan N4 untuk memudahkan dalam ujian JLPT (Japanese Language Proficiency Test) dan berkomunikasi secara langsung</string>
-    <string name="instruksi_detail">Cara penggunaan aplkasi kotoba sebaga berikut: </string>
+    <string name="instruksi_detail">Cara penggunaan aplikasi kotoba sebagai berikut: </string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
