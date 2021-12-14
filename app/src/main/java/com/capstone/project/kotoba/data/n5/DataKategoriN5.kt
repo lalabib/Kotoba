@@ -83,8 +83,6 @@ object DataKategoriN5 {
 
         kategori.add(KategoriN5( "Kata Kerja Golongan-6"))
 
-        kategori.add(KategoriN5( "Kata Kerja Golongan-7"))
-
         return kategori
     }
 }

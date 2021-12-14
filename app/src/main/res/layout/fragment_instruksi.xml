@@ -11,14 +11,14 @@
         android:id="@+id/tv_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="300dp"
         android:text="@string/instruksi_txt"
         android:textSize="18sp"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="6dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_close"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="550dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -26,29 +26,29 @@
         android:id="@+id/tv_detail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:layout_marginBottom="388dp"
         android:text="@string/instruksi_detail"
-        android:textSize="18sp"
+        android:textSize="16sp"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="6dp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_close"
+        android:layout_marginTop="175dp"
+        android:layout_marginBottom="390dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_text" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btn_close"
         android:layout_width="140dp"
         android:layout_height="60dp"
-        android:layout_marginStart="135dp"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="136dp"
-        android:layout_marginBottom="100dp"
         android:text="@string/close"
+        android:layout_marginStart="135dp"
+        android:layout_marginEnd="135dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_text" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
