@@ -1496,4 +1496,134 @@ object DataKataN5 {
 
         return kerjaGolII
     }
+
+    //96
+    fun kategoriKataKerjaGOlIII(): ArrayList<N5> {
+        val kerjaGolIII = ArrayList<N5>()
+
+        kerjaGolIII.add(N5("membuat", "つくります", "tsukurimasu"))
+
+        kerjaGolIII.add(N5("menjual", "うります", "urimasu"))
+
+        kerjaGolIII.add(N5("mengerti", "わかります", "wakarimasu"))
+
+        kerjaGolIII.add(N5("menyeberang", "わたります", "watarimasu"))
+
+        kerjaGolIII.add(N5("melakukan", "やります", "yarimasu"))
+
+        kerjaGolIII.add(N5("mengeluarkan", "だします", "dashimasu"))
+
+        kerjaGolIII.add(N5("berbicara", "はなします", "hanashimasu"))
+
+        kerjaGolIII.add(N5("mengembalikan", "かえします", "kaeshimasu"))
+
+        kerjaGolIII.add(N5("meminjamkan", "かします", "kashimasu"))
+
+        kerjaGolIII.add(N5("menghapus, memadamkan", "けします", "keshimasu"))
+
+        kerjaGolIII.add(N5("menghilangkan", "なくします", "nakushimasu"))
+
+        kerjaGolIII.add(N5("mendorong, mencap", "おします", "oshimasu"))
+
+        kerjaGolIII.add(N5("mengulurkan(tangan), memakai(payung)", "さします", "sashimasu"))
+
+        kerjaGolIII.add(N5("meneyerahkan", "わたします", "watashimasu"))
+
+        return kerjaGolIII
+    }
+
+    //96
+    fun kategoriKataKerjaGOlIV(): ArrayList<N5> {
+        val kerjaGolIV = ArrayList<N5>()
+
+        kerjaGolIV.add(N5("mandi, menyiram", "あびます", "abimasu"))
+
+        kerjaGolIV.add(N5("bisa", "できます", "dekimasu"))
+
+        kerjaGolIV.add(N5("ada(manusia, binatang)", "います", "imasu"))
+
+        kerjaGolIV.add(N5("meminjam", "かります", "karimasu"))
+
+        kerjaGolIV.add(N5("mengenakan(pakaian baju)", "きます", "kimasu"))
+
+        kerjaGolIV.add(N5("melihat, menonton", "みます", "mimasu"))
+
+        kerjaGolIV.add(N5("bangun", "おきます", "okimasu"))
+
+        kerjaGolIV.add(N5("turun", "おります", "orimasu"))
+
+        return kerjaGolIV
+    }
+
+    //97
+    fun kategoriKataKerjaGOlV(): ArrayList<N5> {
+        val kerjaGolV = ArrayList<N5>()
+
+        kerjaGolV.add(N5("memberi", "あげます", "agemasu"))
+
+        kerjaGolV.add(N5("membuka", "あけます", "akemasu"))
+
+        kerjaGolV.add(N5("keluar rumah", "でかけます", "dekakaemasu"))
+
+        kerjaGolV.add(N5("keluar, meninggalkan", "でます", "demasu"))
+
+        kerjaGolV.add(N5("cerah", "はれます", "haremasu"))
+
+        kerjaGolV.add(N5("memasukkan", "いれます", "iremasu"))
+
+        kerjaGolV.add(N5("menggantung", "かけます", "kakemasu"))
+
+        kerjaGolV.add(N5("hilang, padam", "きえます", "kiemasu"))
+
+        kerjaGolV.add(N5("menjawab", "こたえます", "kotaemasu"))
+
+        kerjaGolV.add(N5("memperlihatkan", "みせます", "misemasu"))
+
+        kerjaGolV.add(N5("membariskan, menyusun", "ならべます", "narabemasu"))
+
+        kerjaGolV.add(N5("tidur", "ねます", "nemasu"))
+
+        kerjaGolV.add(N5("mengingat", "おぼえます", "oboemasu"))
+
+        kerjaGolV.add(N5("mengajarkan, memberitahu", "おしえます", "oshiemasu"))
+
+        kerjaGolV.add(N5("mengikat", "しめます", "shimemasu"))
+
+        kerjaGolV.add(N5("menutup", "シめます", "shimemasu"))
+
+        kerjaGolV.add(N5("makan", "たべます", "tabemasu"))
+
+        kerjaGolV.add(N5("letih", "つかれます", "tsukaremasu"))
+
+        kerjaGolV.add(N5("menyalakan(api, listrik)", "つけます", "tsukemasu"))
+
+        kerjaGolV.add(N5("berdinas, bertugas", "つとめます", "tsutomemasu"))
+
+        kerjaGolV.add(N5("lahir", "うまれます", "umaremasu"))
+
+        kerjaGolV.add(N5("lupa", "わすれます", "wasuremasu"))
+
+        return kerjaGolV
+    }
+
+    //97-98
+    fun kategoriKataKerjaGOlVI(): ArrayList<N5> {
+        val kerjaGolVI = ArrayList<N5>()
+
+        kerjaGolVI.add(N5("datang", "きます", "kimasu"))
+
+        kerjaGolVI.add(N5("melakukan", "します", "shimasu"))
+
+        kerjaGolVI.add(N5("belajar", "べんきょう します", "benkyou shimasu"))
+
+        kerjaGolVI.add(N5("mengkopi", "こぴい します", "kopii shimasu"))
+
+        kerjaGolVI.add(N5("berlatih", "れんしゅう します", "renshuu shimasu"))
+
+        kerjaGolVI.add(N5("berjalan-jalan", "さんぽ します", "sanpo shimasu"))
+
+        kerjaGolVI.add(N5("membersihkan, melap", "そうじ します", "souji shimasu"))
+
+        return kerjaGolVI
+    }
 }
