@@ -65,5 +65,6 @@
         android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:src="@drawable/japan"/>
+        android:src="@drawable/japan"
+        android:contentDescription="@string/gambar" />
 </LinearLayout>

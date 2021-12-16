@@ -22,6 +22,7 @@ class KategoriN5Activity : AppCompatActivity() {
         binding = ActivityKategoriN5Binding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.title = title
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
 
         val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[KategoriN5ViewModel::class.java]
         val kategori = viewModel.getKategori()
@@ -50,5 +51,10 @@ class KategoriN5Activity : AppCompatActivity() {
             }
             else -> super.onOptionsItemSelected(item)
         }
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 }

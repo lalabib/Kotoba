@@ -7,6 +7,7 @@
     <string name="kategori">Kategori</string>
     <string name="gambar">gambar</string>
     <string name="settings">Pengaturan</string>
+    <string name="keluar">Tekan sekali lagi untuk keluar</string>
 
     <string name="go_n5">Menghafal Kosakata N5</string>
     <string name="go_n4">Menghafal Kosakata N4</string>
@@ -19,6 +20,15 @@
 
     <string name="instruksi_txt">Kotoba adalah sebuah aplikasi penghapal kosakata Bahasa Jepang berdasarkan N5 dan N4 untuk memudahkan dalam ujian JLPT (Japanese Language Proficiency Test) dan berkomunikasi secara langsung</string>
     <string name="instruksi_detail">Cara penggunaan aplikasi kotoba sebagai berikut:\n 1. Pertama-tama Silahkan tekan tombol mulai\n 2. Silahkan pilih level untuk menghafal kosakata disarankan untuk memulai dari level dasar yaitu N5\n 3. Setelah itu silahkan pilih kategori untuk mulai menghafal kosakata\n 4. Selamat menghafal</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="display_header">Tampilan</string>
+    <string name="pref_dark_title">Mode Gelap</string>
+    <string name="pref_key_dark" translatable="false">key_dark_mode</string>
+    <string name="pref_dark_auto" translatable="false">auto</string>
+    <string name="pref_dark_on" translatable="false">on</string>
+    <string name="pref_dark_off" translatable="false">off</string>
+    <string name="dark_mode_auto">Otomatis</string>
+    <string name="dark_mode_on">Mode Gelap</string>
+    <string name="dark_mode_off">Mode Cahaya</string>
 </resources>
