@@ -7,7 +7,6 @@
     android:padding="16dp"
     tools:context=".ui.kategori.n5.KategoriN5Activity">
 
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvKategori"
         android:layout_width="0dp"

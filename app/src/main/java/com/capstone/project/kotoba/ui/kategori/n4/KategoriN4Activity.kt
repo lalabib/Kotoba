@@ -14,14 +14,18 @@ import com.capstone.project.kotoba.ui.practice.n4.PracticeN4Activity
 import com.capstone.project.kotoba.ui.setting.SettingActivity
 
 class KategoriN4Activity : AppCompatActivity() {
+
     private lateinit var binding: ActivityKategoriN4Binding
     private val title = "Kategori N4"
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding = ActivityKategoriN4Binding.inflate(layoutInflater)
         setContentView(binding.root)
         supportActionBar?.title = title
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
+
         val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[KategoriN4ViewModel::class.java]
         val kategori = viewModel.getKategoriN4()
 
@@ -40,6 +44,7 @@ class KategoriN4Activity : AppCompatActivity() {
             }
         })
     }
+
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_list, menu)
         return super.onCreateOptionsMenu(menu)

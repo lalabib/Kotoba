@@ -7,7 +7,11 @@ import com.capstone.project.kotoba.data.n5.KategoriN5
 import com.capstone.project.kotoba.databinding.ListKategoriBinding
 
 class KategoriN5Adapter : RecyclerView.Adapter<KategoriN5Adapter.KategoriN5ViewHolder>() {
-    var onItemClickCallback: OnItemClickCallback? = null
+    private lateinit var onItemClickCallback: OnItemClickCallback
+
+    fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
+        this.onItemClickCallback = onItemClickCallback
+    }
 
     private val listKategori = ArrayList<KategoriN5>()
 
@@ -23,17 +27,17 @@ class KategoriN5Adapter : RecyclerView.Adapter<KategoriN5Adapter.KategoriN5ViewH
 
     override fun onBindViewHolder(holder: KategoriN5ViewHolder, position: Int) {
         val kategori = listKategori[position]
-        holder.bind(kategori) {
-            onItemClickCallback?.onItemClicked(kategori)
+        holder.bind(kategori)
+        holder.itemView.setOnClickListener{
+            onItemClickCallback.onItemClicked(kategori)
         }
     }
 
     override fun getItemCount(): Int = listKategori.size
 
     class KategoriN5ViewHolder(private val binding: ListKategoriBinding): RecyclerView.ViewHolder(binding.root) {
-        fun bind(kategori: KategoriN5, itemClicked: () -> Unit) {
+        fun bind(kategori: KategoriN5) {
             binding.tvKategori.text = kategori.kategori
-            itemView.setOnClickListener { itemClicked.invoke() }
         }
     }
 

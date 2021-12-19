@@ -12,6 +12,7 @@ class KategoriN4Adapter : RecyclerView.Adapter<KategoriN4Adapter.KategoriN4ViewH
     fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {
         this.onItemClickCallback = onItemClickCallback
     }
+
     private val listKategori = ArrayList<KategoriN4>()
 
     fun setKategori(kategori: List<KategoriN4>?) {
@@ -28,7 +29,7 @@ class KategoriN4Adapter : RecyclerView.Adapter<KategoriN4Adapter.KategoriN4ViewH
         val kategori = listKategori[position]
         holder.bind(kategori)
         holder.itemView.setOnClickListener{
-            onItemClickCallback?.onItemClicked(kategori)
+            onItemClickCallback.onItemClicked(kategori)
         }
     }
 
