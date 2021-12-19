@@ -12,10 +12,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/instruksi_txt"
-        android:textSize="18sp"
+        android:textSize="20sp"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="6dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
         android:layout_marginBottom="550dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -27,15 +28,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/instruksi_detail"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:layout_marginStart="12dp"
         android:layout_marginEnd="6dp"
-        android:layout_marginTop="175dp"
-        android:layout_marginBottom="390dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_close"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/tv_text" />
 
     <Button
         android:id="@+id/btn_close"
@@ -44,11 +44,10 @@
         android:text="@string/close"
         android:layout_marginStart="135dp"
         android:layout_marginEnd="135dp"
-        android:layout_marginTop="600dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginTop="340dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/tv_text" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

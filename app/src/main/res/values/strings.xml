@@ -6,7 +6,6 @@
     <string name="close">Tutup</string>
     <string name="kategori">Kategori</string>
     <string name="gambar">gambar</string>
-    <string name="settings">Pengaturan</string>
     <string name="keluar">Tekan sekali lagi untuk keluar</string>
 
     <string name="go_n5">Menghafal Kosakata N5</string>
@@ -31,9 +30,16 @@
     <string name="dark_mode_auto">Otomatis</string>
     <string name="dark_mode_on">Mode Gelap</string>
     <string name="dark_mode_off">Mode Cahaya</string>
-    <string name="card_next">NEXT</string>
-    <string name="card_previous">PREVIOUS</string>
-    <string name="editing_meaning">e.g. 単語, слово, كلمة, etc...</string>
-    <string name="editing_word">e.g. Word</string>
-    <string name="romaji">romaji</string>
+    <string name="card_next">Selanjutnya</string>
+    <string name="card_previous">Sebelumnya</string>
+    <string name="editing_meaning">は</string>
+    <string name="editing_word">daun</string>
+    <string name="romaji">ha</string>
+
+
+    <string name="pref_reminder_time_title">Atur Waktu</string>
+    <string name="pref_reminder_time_key">reminder_time_key</string>
+    <string name="pref_practice_reminder_key">practice_reminder_key</string>
+    <string name="pref_practice_reminder_title">Pengingat Latihan</string>
+    <string name="pengingat">Notifikasi Pengingat</string>
 </resources>

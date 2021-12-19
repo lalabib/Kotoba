@@ -1,4 +1,21 @@
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory app:title="@string/pengingat">
+
+        <SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:key="@string/pref_practice_reminder_key"
+            android:title="@string/pref_practice_reminder_title" />
+        <Preference
+            android:defaultValue="9:00 PM"
+            android:key="@string/pref_reminder_time_key"
+            android:enabled="false"
+            android:title="@string/pref_reminder_time_title" />
+
+    </PreferenceCategory>
+
     <PreferenceCategory app:title="@string/display_header">
 
         <ListPreference

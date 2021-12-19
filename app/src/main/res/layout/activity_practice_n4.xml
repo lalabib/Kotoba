@@ -26,8 +26,8 @@
         android:layout_marginEnd="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
-        app:strokeColor="@color/purple_500"
-        app:strokeWidth="5dp"
+        app:strokeColor="@color/biru_indigo"
+        app:strokeWidth="2dp"
         app:cardCornerRadius="10dp"
         app:contentPadding="10dp"
         app:cardElevation="8dp"
@@ -55,8 +55,8 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
-        app:strokeColor="@color/purple_500"
-        app:strokeWidth="5dp"
+        app:strokeColor="@color/biru_indigo"
+        app:strokeWidth="2dp"
         app:cardCornerRadius="10dp"
         app:contentPadding="10dp"
         app:cardElevation="8dp"
@@ -103,7 +103,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button2"
         app:layout_constraintHorizontal_bias="0.5"
-        app:backgroundTint="@color/black"/>
+        app:backgroundTint="@color/biru_dark"/>
 
     <com.google.android.material.button.MaterialButton
         android:text="@string/card_previous"
@@ -117,5 +117,5 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintEnd_toStartOf="@+id/button"
-        app:backgroundTint="@color/design_default_color_primary"/>
+        app:backgroundTint="@color/biru_dark"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
