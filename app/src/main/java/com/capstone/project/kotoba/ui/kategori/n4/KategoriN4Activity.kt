@@ -8,22 +8,17 @@ import android.view.MenuItem
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.capstone.project.kotoba.R
+import com.capstone.project.kotoba.data.n4.KategoriN4
 import com.capstone.project.kotoba.databinding.ActivityKategoriN4Binding
+import com.capstone.project.kotoba.ui.practice.n4.PracticeN4Activity
 import com.capstone.project.kotoba.ui.setting.SettingActivity
 
 class KategoriN4Activity : AppCompatActivity() {
-
     private lateinit var binding: ActivityKategoriN4Binding
-    private val title = "Kategori N4"
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         binding = ActivityKategoriN4Binding.inflate(layoutInflater)
         setContentView(binding.root)
-        supportActionBar?.title = title
-        supportActionBar?.setDisplayHomeAsUpEnabled(true)
-
         val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[KategoriN4ViewModel::class.java]
         val kategori = viewModel.getKategoriN4()
 
@@ -33,8 +28,15 @@ class KategoriN4Activity : AppCompatActivity() {
         binding.rvKategori.layoutManager = LinearLayoutManager(this@KategoriN4Activity)
         binding.rvKategori.setHasFixedSize(true)
         binding.rvKategori.adapter = kategoriN4Adapter
-    }
 
+        kategoriN4Adapter.setOnItemClickCallback(object : KategoriN4Adapter.OnItemClickCallback{
+            override fun onItemClicked(data: KategoriN4) {
+                val practice = Intent(this@KategoriN4Activity, PracticeN4Activity::class.java)
+                practice.putExtra("uuid", data.id)
+                startActivity(practice)
+            }
+        })
+    }
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.menu_list, menu)
         return super.onCreateOptionsMenu(menu)
