@@ -218,6 +218,7 @@ class PracticeN4Activity : AppCompatActivity() {
         binding.meaning.scrollBy(0, 1)
         binding.meaning.scrollBy(0, -1)
     }
+
     private fun showAnswerLittleByLittle() {
         val alphaAnimation = AlphaAnimation(0f, 1f)
         alphaAnimation.startOffset = 1000

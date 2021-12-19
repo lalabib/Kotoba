@@ -10,7 +10,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.capstone.project.kotoba.R
 import com.capstone.project.kotoba.data.n5.KategoriN5
 import com.capstone.project.kotoba.databinding.ActivityKategoriN5Binding
-import com.capstone.project.kotoba.ui.practice.n4.PracticeN4Activity
+import com.capstone.project.kotoba.ui.practice.n5.PracticeN5Activity
 import com.capstone.project.kotoba.ui.setting.SettingActivity
 
 class KategoriN5Activity : AppCompatActivity() {
@@ -40,7 +40,7 @@ class KategoriN5Activity : AppCompatActivity() {
 
         kategoriN5Adapter.setOnItemClickCallback(object : KategoriN5Adapter.OnItemClickCallback{
             override fun onItemClicked(data: KategoriN5) {
-                val practice = Intent(this@KategoriN5Activity, PracticeN4Activity::class.java)
+                val practice = Intent(this@KategoriN5Activity, PracticeN5Activity::class.java)
                 practice.putExtra("uuid", data.id)
                 startActivity(practice)
             }
