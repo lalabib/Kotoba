@@ -261,17 +261,17 @@ object DataKataN5 {
     fun kategoriSatuan(): ArrayList<N5> {
         val satuan = ArrayList<N5>()
 
-        satuan.add(N5("kilo, kilogram(kg)", "きろ,きろぐらむ", "kiro, kiroguramu"))
+        satuan.add(N5("kilo, kilogram(kg)", "キロ, キログラム", "kiro, kiroguramu"))
 
-        satuan.add(N5("gram(gr)", "ぐらむ", "guramu"))
+        satuan.add(N5("gram(gr)", "グラム", "guramu"))
 
-        satuan.add(N5("kilo, kilometer(km)", "きろ,きろめえとる", "kiro, kiromeetoru"))
+        satuan.add(N5("kilo, kilometer(km)", "キロ, キロメートル", "kiro, kiromeetoru"))
 
-        satuan.add(N5("meter(m)", "めえとる", "meetoru"))
+        satuan.add(N5("meter(m)", "メートル", "meetoru"))
 
         satuan.add(N5("lembar", "まい", "mai"))
 
-        satuan.add(N5("halaman", "ぺえじ", "peeji"))
+        satuan.add(N5("halaman", "ページ", "peeji"))
 
         satuan.add(N5("jilid", "さつ", "satsu"))
 
@@ -455,7 +455,7 @@ object DataKataN5 {
 
         binatang.add(N5("binatang", "どうぶつ", "doubutsu"))
 
-        binatang.add(N5("binatang peliharaan", "ぺっと", "petto"))
+        binatang.add(N5("binatang peliharaan", "ペット", "petto"))
 
         binatang.add(N5("anjing", "いぬ", "inu"))
 
@@ -484,19 +484,19 @@ object DataKataN5 {
 
         benda.add(N5("kacamata", "めがね", "megane"))
 
-        benda.add(N5("sapu-tangan", "はんかち", "hankachi"))
+        benda.add(N5("sapu-tangan", "ハンカチ", "hankachi"))
 
         benda.add(N5("handuk", "たおる", "taoru"))
 
         benda.add(N5("sabun", "せっけん", "sekken"))
 
-        benda.add(N5("shampo", "しゃんぷう", "shanpuu"))
+        benda.add(N5("shampo", "シャンプー", "shanpuu"))
 
         benda.add(N5("dompet", "さいふ", "saifu"))
 
         benda.add(N5("uang", "おかね", "okane"))
 
-        benda.add(N5("sandal", "すりっぱ", "surippa"))
+        benda.add(N5("sandal", "スリッパ", "surippa"))
 
         benda.add(N5("kaos kaki", "くつした", "kutsushita"))
 
@@ -508,7 +508,7 @@ object DataKataN5 {
 
         benda.add(N5("rokok","たばこ", "tabako"))
 
-        benda.add(N5("korek api", "まっち", "macchi"))
+        benda.add(N5("korek api", "マッチ", "macchi"))
 
         benda.add(N5("obat", "くすり", "kusuri"))
 
@@ -527,25 +527,25 @@ object DataKataN5 {
 
         pakaian.add(N5("pakaian", "ようふく, ふく", "youfuku, fuku"))
 
-        pakaian.add(N5("mantel", "こおと", "kooto"))
+        pakaian.add(N5("mantel", "コート", "kouto"))
 
-        pakaian.add(N5("baju hangat, sweter", "せえたあ", "seetaa"))
+        pakaian.add(N5("baju hangat, sweter", "セーター", "seetaa"))
 
         pakaian.add(N5("jas", "せびろ", "sebiro"))
 
         pakaian.add(N5("jaket", "じゃけっと", "jaketto"))
 
-        pakaian.add(N5("kemeja", "わいしゃつ, しゃつ", "waishatsu, shatsu"))
+        pakaian.add(N5("kemeja", "ワイシャツ, シャツ", "waishatsu, shatsu"))
 
-        pakaian.add(N5("dasi", "ねくたい", "nekutai"))
+        pakaian.add(N5("dasi", "ネクタイ", "nekutai"))
 
-        pakaian.add(N5("rok", "すかあと", "sukaato"))
+        pakaian.add(N5("rok", "スカート", "sukaato"))
 
-        pakaian.add(N5("celana panjang", "ずぼん", "zubon"))
+        pakaian.add(N5("celana panjang", "ズボン", "zubon"))
 
-        pakaian.add(N5("saku", "ぽけっと", "poketto"))
+        pakaian.add(N5("saku", "ポケット", "poketto"))
 
-        pakaian.add(N5("kancing baju", "ぼたん", "botan"))
+        pakaian.add(N5("kancing baju", "ボタン", "botan"))
 
         return pakaian
     }
@@ -576,13 +576,13 @@ object DataKataN5 {
 
         makanMinum.add(N5("daging babi", "ぶたにく", "butaniku"))
 
-        makanMinum.add(N5("daging ayam", "とりぬく, ちきん", "toriniku, chikin"))
+        makanMinum.add(N5("daging ayam", "とりにく, チキン", "toriniku, chikin"))
 
         makanMinum.add(N5("sayur", "やさい", "yasai"))
 
-        makanMinum.add(N5("salad", "さらだ", "sarada"))
+        makanMinum.add(N5("salad", "サラダ", "sarada"))
 
-        makanMinum.add(N5("tomat", "とまと", "tomato"))
+        makanMinum.add(N5("tomat", "トマト", "tomato"))
 
         makanMinum.add(N5("buah-buahan", "くだもの", "kudamono"))
 
@@ -590,21 +590,21 @@ object DataKataN5 {
 
         makanMinum.add(N5("jeruk", "みかん", "mikan"))
 
-        makanMinum.add(N5("pisang", "ばなな", "banana"))
+        makanMinum.add(N5("pisang", "バナナ", "banana"))
 
-        makanMinum.add(N5("roti", "ぱん", "pan"))
+        makanMinum.add(N5("roti", "パン", "pan"))
 
-        makanMinum.add(N5("mentega", "ばたあ", "bataa"))
+        makanMinum.add(N5("mentega", "バター", "bataa"))
 
         makanMinum.add(N5("telur", "たまご", "tamago"))
 
-        makanMinum.add(N5("susu", "ぎゅんにゅう, みるく", "gyuunyuu, miruku"))
+        makanMinum.add(N5("susu", "ミルク", "miruku"))
 
         makanMinum.add(N5("teh hijau", "おちゃ", "ocha"))
 
         makanMinum.add(N5("teh", "こうちゃ", "koucha"))
 
-        makanMinum.add(N5("kopi", "こおひい", "koohii"))
+        makanMinum.add(N5("kopi", "コーヒー", "koohii"))
 
         makanMinum.add(N5("camilan", "おかし", "okashi"))
 
@@ -623,9 +623,9 @@ object DataKataN5 {
 
         hobi.add(N5("lagu", "うた", "uta"))
 
-        hobi.add(N5("gitar", "ぎたあ", "gitaa"))
+        hobi.add(N5("gitar", "ギター", "gitaa"))
 
-        hobi.add(N5("piringan hitam", "れこおど", "rekoodo"))
+        hobi.add(N5("piringan hitam", "レコード", "rekoudo"))
 
         hobi.add(N5("film", "えいが", "eiga"))
 
@@ -633,11 +633,11 @@ object DataKataN5 {
 
         hobi.add(N5("foto", "しゃしん", "shashin"))
 
-        hobi.add(N5("kamera", "かめら", "kamera"))
+        hobi.add(N5("kamera", "カメラ", "kamera"))
 
-        hobi.add(N5("olahraga", "すぽおつ", "supootsu"))
+        hobi.add(N5("olahraga", "スポーツ", "supootsu"))
 
-        hobi.add(N5("pesta", "ぱあてぃ", "paati"))
+        hobi.add(N5("pesta", "パーティー", "paati"))
 
         return hobi
     }
@@ -660,9 +660,9 @@ object DataKataN5 {
 
         kota.add(N5("taman", "こうえん", "kouen"))
 
-        kota.add(N5("kolam renang", "ぷうる", "puuru"))
+        kota.add(N5("kolam renang", "プール", "puuru"))
 
-        kota.add(N5("lapangan tenis", "てにす こおと", "tenisu kooto"))
+        kota.add(N5("lapangan tenis", "テニスコート", "tenisu kooto"))
 
         kota.add(N5("peta", "ちず", "chizu"))
 
@@ -679,11 +679,11 @@ object DataKataN5 {
 
         transportasi.add(N5("sepeda", "じてんしゃ", "jitensha"))
 
-        transportasi.add(N5("motor", "おとばいく", "otobaiku"))
+        transportasi.add(N5("motor", "オートバイク", "otobaiku"))
 
-        transportasi.add(N5("taksi", "たくしい", "takushii"))
+        transportasi.add(N5("taksi", "タクシー", "takushii"))
 
-        transportasi.add(N5("bis", "ばす", "basu"))
+        transportasi.add(N5("bis", "バス", "basu"))
 
         transportasi.add(N5("kereta listrik", "でんしゃ", "densha"))
 
@@ -704,7 +704,7 @@ object DataKataN5 {
 
         sekolah.add(N5("universitas", "だいがく", "daigaku"))
 
-        sekolah.add(N5("kelas", "きょうしつ", "kyoushitsu"))
+        sekolah.add(N5("kelas", "クラス", "kurasu"))
 
         sekolah.add(N5("perpustakaan", "としょかん", "toshokan"))
 
@@ -726,7 +726,7 @@ object DataKataN5 {
 
         sekolah.add(N5("pekerjaan rumah,PR", "しゅくだい", "shukudai"))
 
-        sekolah.add(N5("test, ulangan, ujian", "てすと, しけん", "tesuto, shiken"))
+        sekolah.add(N5("test, ulangan, ujian", "テスト, しけん", "tesuto, shiken"))
 
         return sekolah
     }
@@ -737,13 +737,13 @@ object DataKataN5 {
 
         bangunan.add(N5("bangunan", "たてもの", "tatemono"))
 
-        bangunan.add(N5("apartemen", "あぱと", "apato"))
+        bangunan.add(N5("apartemen", "アパート", "apaato"))
 
         bangunan.add(N5("rumah", "ぇ", "le"))
 
-        bangunan.add(N5("hotel", "ほてる", "hoteru"))
+        bangunan.add(N5("hotel", "ホテル", "hoteru"))
 
-        bangunan.add(N5("toko serba-ada", "でぱあと", "depaato"))
+        bangunan.add(N5("toko serba-ada", "デパート", "depaato"))
 
         bangunan.add(N5("stasiun", "えき", "eki"))
 
@@ -761,7 +761,7 @@ object DataKataN5 {
 
         bangunan.add(N5("kantor", "かいしゃ", "kaisha"))
 
-        bangunan.add(N5("restoran", "れすとらん", "resutoran"))
+        bangunan.add(N5("restoran", "レストラン", "resutoran"))
 
         bangunan.add(N5("kedai kopi", "きっさてん", "kissaten"))
 
@@ -769,11 +769,11 @@ object DataKataN5 {
 
         bangunan.add(N5("penjual sayur", "やおや", "yaoya"))
 
-        bangunan.add(N5("lift, elevator", "えれべえたあ", "erebeetaa"))
+        bangunan.add(N5("lift, elevator", "エレベーター", "erebeetaa"))
 
         bangunan.add(N5("tangga", "かいだん", "kaidan"))
 
-        bangunan.add(N5("tangga berjalan", "えすかれえたあ", "esukareetaa"))
+        bangunan.add(N5("tangga berjalan", "エスカレーター", "esukareetaa"))
 
         bangunan.add(N5("pintu masuk", "いりぐち", "iriguchi"))
 
@@ -806,9 +806,9 @@ object DataKataN5 {
 
         rumah.add(N5("kamar mandi", "ふろば", "furoba"))
 
-        rumah.add(N5("shower", "しゃわあ", "shawaa"))
+        rumah.add(N5("shower", "シャワー", "shawaa"))
 
-        rumah.add(N5("kamar kecil, toilet", "といれ, おてあらい", "toire, otearai"))
+        rumah.add(N5("kamar kecil, toilet", "トイレ, おてらい", "toire, otearai"))
 
         rumah.add(N5("lorong", "ろうか", "rouka"))
 
@@ -823,11 +823,11 @@ object DataKataN5 {
     fun kategoriPeralatanRumah(): ArrayList<N5> {
         val peralRumah = ArrayList<N5>()
 
-        peralRumah.add(N5("sofa", "そふぁ", "sof(u)a"))
+        peralRumah.add(N5("sofa", "ソフア", "sof(u)a"))
 
         peralRumah.add(N5("kursi", "いす", "isu"))
 
-        peralRumah.add(N5("meja", "つけ, てえぶる", "tsuke, teeburu"))
+        peralRumah.add(N5("meja", "つくえ, テーブル", "tsuke, teeburu"))
 
         peralRumah.add(N5("rak buku", "ほんだな", "hondana"))
 
@@ -837,25 +837,25 @@ object DataKataN5 {
 
         peralRumah.add(N5("AC, pendingin ruangan", "れいぼう", "reibou"))
 
-        peralRumah.add(N5("pemanas ruangan", "だんぼう, すとおぶ", "danbou, sutoobu"))
+        peralRumah.add(N5("pemanas ruangan", "だんぼう, ストーブ", "danbou, sutoobu"))
 
         peralRumah.add(N5("pengatur suhu udara", "れいだんぼう", "reidanbou"))
 
         peralRumah.add(N5("kulkas, lemari es", "れいぞうこ", "reizouko"))
 
-        peralRumah.add(N5("televisi", "てれび", "terebi"))
+        peralRumah.add(N5("televisi", "テレビ", "terebi"))
 
-        peralRumah.add(N5("tape recorder", "てえぷれこおだあ", "teepurekoodaa"))
+        peralRumah.add(N5("tape recorder", "テープレコーダー", "teepurekoodaa"))
 
-        peralRumah.add(N5("radio", "らじお", "rajio"))
+        peralRumah.add(N5("radio", "ラジオ", "rajio"))
 
-        peralRumah.add(N5("radio kaset", "らじかせ, らじかせっと", "rajikase, rajikasetto"))
+        peralRumah.add(N5("radio kaset", "ラジカセ, ラジカセット", "rajikase, rajikasetto"))
 
         peralRumah.add(N5("telepon", "でんわ", "denwa"))
 
         peralRumah.add(N5("gambar, lukisan", "え", "e"))
 
-        peralRumah.add(N5("kalender", "かれんだあ", "karendaa"))
+        peralRumah.add(N5("kalender", "カレンダー", "karendaa"))
 
         peralRumah.add(N5("jam(dinding)", "とけい", "tokei"))
 
@@ -872,19 +872,19 @@ object DataKataN5 {
 
         peralMakan.add(N5("piring", "さら", "sara"))
 
-        peralMakan.add(N5("sendok", "すぷうん", "supuun"))
+        peralMakan.add(N5("sendok", "スプーン", "supuun"))
 
-        peralMakan.add(N5("garpu", "ふぉおく", "fooku"))
+        peralMakan.add(N5("garpu", "フォーク", "fouku"))
 
-        peralMakan.add(N5("pisau", "ないふ", "naifu"))
+        peralMakan.add(N5("pisau", "ナイフ", "naifu"))
 
         peralMakan.add(N5("mangkok nasi", "ちゃわん", "chawan"))
 
         peralMakan.add(N5("sumpit", "はし", "hashi"))
 
-        peralMakan.add(N5("gelas", "こっぷ", "koppu"))
+        peralMakan.add(N5("gelas", "コップ", "koppu"))
 
-        peralMakan.add(N5("cangkir", "かっぷ", "kappu"))
+        peralMakan.add(N5("cangkir", "カップ", "kappu"))
 
         return peralMakan
     }
@@ -912,7 +912,7 @@ object DataKataN5 {
 
         alatTulis.add(N5("kertas", "かみ", "kami"))
 
-        alatTulis.add(N5("pulpen", "ぼおるぺん", "boorupen"))
+        alatTulis.add(N5("pulpen", "ペン, ボルペン", "pen, boorupen"))
 
         alatTulis.add(N5("pen tinta", "まんねんひつ", "mannenhitsu"))
 
@@ -920,7 +920,7 @@ object DataKataN5 {
 
         alatTulis.add(N5("buku", "ほん", "hon"))
 
-        alatTulis.add(N5("buku tulis, notes", "のおと", "nooto"))
+        alatTulis.add(N5("buku tulis, notes", "ノート", "nouto"))
 
         alatTulis.add(N5("kertas surat", "てがみ", "tegami"))
 
@@ -930,7 +930,7 @@ object DataKataN5 {
 
         alatTulis.add(N5("amplop", "ふうとう", "fuutou"))
 
-        alatTulis.add(N5("pita, selotip", "てえぷ", "teepu"))
+        alatTulis.add(N5("pita, selotip", "テープ", "teepu"))
 
         alatTulis.add(N5("kotak, box", "はこ", "hako"))
 

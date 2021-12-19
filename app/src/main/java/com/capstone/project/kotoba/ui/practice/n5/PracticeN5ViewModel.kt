@@ -8,6 +8,8 @@ class PracticeN5ViewModel: ViewModel() {
 
     fun getAlam(): MutableList<N5> = DataKataN5.kategoriAlam()
 
+    fun getAlatTulis(): MutableList<N5> = DataKataN5.kategoriAlatTulis()
+
     fun getAngka(): MutableList<N5> = DataKataN5.kategoriAngka()
 
     fun getArah(): MutableList<N5> = DataKataN5.kategoriArah()
@@ -66,7 +68,7 @@ class PracticeN5ViewModel: ViewModel() {
 
     fun getMusim(): MutableList<N5> = DataKataN5.kategoriMusim()
 
-    fun getPakaian(): MutableList<N5> = DataKataN5.kategoriKataSambung()
+    fun getPakaian(): MutableList<N5> = DataKataN5.kategoriPakaian()
 
     fun getPeralatanMakan(): MutableList<N5> = DataKataN5.kategoriPeralatanMakan()
 

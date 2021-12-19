@@ -8,7 +8,6 @@ import android.view.animation.AlphaAnimation
 import androidx.lifecycle.ViewModelProvider
 import com.capstone.project.kotoba.data.n5.N5
 import com.capstone.project.kotoba.databinding.ActivityPracticeN5Binding
-import com.capstone.project.kotoba.ui.practice.n4.PracticeN4ViewModel
 
 class PracticeN5Activity : AppCompatActivity() {
 
@@ -33,117 +32,120 @@ class PracticeN5Activity : AppCompatActivity() {
                 cards = viewModel.getAlam()
             }
             1 -> {
-                cards = viewModel.getAngka()
+                cards = viewModel.getAlatTulis()
             }
             2 -> {
-                cards = viewModel.getArah()
+                cards = viewModel.getAngka()
             }
             3 -> {
-                cards = viewModel.getBangunan()
+                cards = viewModel.getArah()
             }
             4 -> {
-                cards = viewModel.getBenda()
+                cards = viewModel.getBangunan()
             }
             5 -> {
-                cards = viewModel.getBinatang()
+                cards = viewModel.getBenda()
             }
             6 -> {
-                cards = viewModel.getBumbu()
+                cards = viewModel.getBinatang()
             }
             7 -> {
-                cards = viewModel.getHari()
+                cards = viewModel.getBumbu()
             }
             8 -> {
-                cards = viewModel.getHobi()
+                cards = viewModel.getHari()
             }
             9 -> {
-                cards = viewModel.getJabatan()
+                cards = viewModel.getHobi()
             }
             10 -> {
-                cards = viewModel.getGanti()
+                cards = viewModel.getJabatan()
             }
             11 -> {
-                cards = viewModel.getKerjaI()
+                cards = viewModel.getGanti()
             }
             12 -> {
-                cards = viewModel.getKerjaII()
+                cards = viewModel.getKerjaI()
             }
             13 -> {
-                cards = viewModel.getKerjaIII()
+                cards = viewModel.getKerjaII()
             }
             14 -> {
-                cards = viewModel.getKerjaIV()
+                cards = viewModel.getKerjaIII()
             }
             15 -> {
-                cards = viewModel.getKerjaV()
+                cards = viewModel.getKerjaIV()
             }
             16 -> {
-                cards = viewModel.getKerjaVI()
+                cards = viewModel.getKerjaV()
             }
             17 -> {
-                cards = viewModel.getKeterangan()
+                cards = viewModel.getKerjaVI()
             }
             18 -> {
-                cards = viewModel.getPenunjuk()
+                cards = viewModel.getKeterangan()
             }
             19 -> {
-                cards = viewModel.getSambung()
+                cards = viewModel.getPenunjuk()
             }
             20 -> {
-                cards = viewModel.getSifatNon()
+                cards = viewModel.getSambung()
             }
             21 -> {
-                cards = viewModel.getSifatI()
+                cards = viewModel.getSifatNon()
             }
             22 -> {
-                cards = viewModel.getSifatII()
+                cards = viewModel.getSifatI()
             }
             23 -> {
-                cards = viewModel.getSTanya()
+                cards = viewModel.getSifatII()
             }
             24 -> {
-                cards = viewModel.getKeluarga()
+                cards = viewModel.getSTanya()
             }
             25 -> {
-                cards = viewModel.getKetWaktu()
+                cards = viewModel.getKeluarga()
             }
             26 -> {
-                cards = viewModel.getKota()
+                cards = viewModel.getKetWaktu()
             }
             27 -> {
-                cards = viewModel.getMakanMinum()
+                cards = viewModel.getKota()
             }
             28 -> {
-                cards = viewModel.getManusia()
+                cards = viewModel.getMakanMinum()
             }
             29 -> {
-                cards = viewModel.getMusim()
+                cards = viewModel.getManusia()
             }
             30 -> {
-                cards = viewModel.getPakaian()
+                cards = viewModel.getMusim()
             }
             31 -> {
-                cards = viewModel.getPeralatanMakan()
+                cards = viewModel.getPakaian()
             }
             32 -> {
-                cards = viewModel.getPeralatanRumah()
+                cards = viewModel.getPeralatanMakan()
             }
             33 -> {
-                cards = viewModel.getRumahBagian()
+                cards = viewModel.getPeralatanRumah()
             }
             34 -> {
-                cards = viewModel.getSatuan()
+                cards = viewModel.getRumahBagian()
             }
             35 -> {
-                cards = viewModel.getSekolah()
+                cards = viewModel.getSatuan()
             }
             36 -> {
-                cards = viewModel.getSTanggalHari()
+                cards = viewModel.getSekolah()
             }
             37 -> {
-                cards = viewModel.getTransportasi()
+                cards = viewModel.getSTanggalHari()
             }
             38 -> {
+                cards = viewModel.getTransportasi()
+            }
+            39 -> {
                 cards = viewModel.getWarna()
             }
         }
