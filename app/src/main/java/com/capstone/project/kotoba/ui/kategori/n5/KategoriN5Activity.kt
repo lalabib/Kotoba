@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.lifecycle.ViewModelProvider
-import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.GridLayoutManager
 import com.capstone.project.kotoba.R
 import com.capstone.project.kotoba.data.n5.KategoriN5
 import com.capstone.project.kotoba.databinding.ActivityKategoriN5Binding
@@ -33,7 +33,7 @@ class KategoriN5Activity : AppCompatActivity() {
         kategoriN5Adapter.setKategori(kategori)
 
         binding.apply {
-            rvKategori.layoutManager = LinearLayoutManager(this@KategoriN5Activity)
+            rvKategori.layoutManager = GridLayoutManager(applicationContext, 2)
             rvKategori.setHasFixedSize(true)
             rvKategori.adapter = kategoriN5Adapter
         }

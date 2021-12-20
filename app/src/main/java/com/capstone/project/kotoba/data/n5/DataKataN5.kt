@@ -533,7 +533,7 @@ object DataKataN5 {
 
         pakaian.add(N5("jas", "せびろ", "sebiro"))
 
-        pakaian.add(N5("jaket", "じゃけっと", "jaketto"))
+        pakaian.add(N5("jaket", "ジャケット, うわぎ", "jaketto, uwagi"))
 
         pakaian.add(N5("kemeja", "ワイシャツ, シャツ", "waishatsu, shatsu"))
 

@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.lifecycle.ViewModelProvider
+import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.capstone.project.kotoba.R
 import com.capstone.project.kotoba.data.n4.KategoriN4
@@ -32,7 +33,7 @@ class KategoriN4Activity : AppCompatActivity() {
         val kategoriN4Adapter = KategoriN4Adapter()
         kategoriN4Adapter.setKategori(kategori)
 
-        binding.rvKategori.layoutManager = LinearLayoutManager(this@KategoriN4Activity)
+        binding.rvKategori.layoutManager = GridLayoutManager(applicationContext, 2)
         binding.rvKategori.setHasFixedSize(true)
         binding.rvKategori.adapter = kategoriN4Adapter
 
