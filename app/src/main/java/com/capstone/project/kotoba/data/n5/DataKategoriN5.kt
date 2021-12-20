@@ -5,15 +5,15 @@ object DataKategoriN5 {
     fun kategoriN5(): ArrayList<KategoriN5> {
         val kategori = ArrayList<KategoriN5>()
 
-        kategori.add(KategoriN5(0,"Alam" ))
+        kategori.add(KategoriN5(0,"Alam"))
 
-        kategori.add(KategoriN5(1,"Alat Tulis" ))
+        kategori.add(KategoriN5(1,"Alat Tulis"))
 
-        kategori.add(KategoriN5(2,"Angka" ))
+        kategori.add(KategoriN5(2,"Angka"))
 
-        kategori.add(KategoriN5(3, "Arah" ))
+        kategori.add(KategoriN5(3, "Arah"))
 
-        kategori.add(KategoriN5(4, "Bangunan & Bagiannya" ))
+        kategori.add(KategoriN5(4, "Bangunan & Bagiannya"))
 
         kategori.add(KategoriN5(5, "Benda"))
 

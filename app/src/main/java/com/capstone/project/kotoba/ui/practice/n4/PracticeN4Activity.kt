@@ -193,6 +193,7 @@ class PracticeN4Activity : AppCompatActivity() {
                 title = "Transportasi & Lalu Lintas"
             }
         }
+
         supportActionBar?.title = title
         showAnswerLittleByLittle()
         binding.meaning.setOnClickListener{
@@ -202,7 +203,6 @@ class PracticeN4Activity : AppCompatActivity() {
             binding.romaji.clearAnimation()
             binding.romaji.alpha = 1f
         }
-
 
         binding.meaning.movementMethod = ScrollingMovementMethod()
         cards.shuffle()
@@ -226,6 +226,7 @@ class PracticeN4Activity : AppCompatActivity() {
             finish()
             return
         }
+
         binding.counter.text = String.format("%d / %d", cardNumber + 1, cards.size)
         showAnswerLittleByLittle()
 
@@ -245,8 +246,10 @@ class PracticeN4Activity : AppCompatActivity() {
             finish()
             return
         }
+
         binding.counter.text = String.format("%d / %d", cardNumber + 1, cards.size)
         showAnswerLittleByLittle()
+
         val card = cards[cardNumber]
         binding.word.text = card.indonesia
         binding.meaning.text = card.hiragana
