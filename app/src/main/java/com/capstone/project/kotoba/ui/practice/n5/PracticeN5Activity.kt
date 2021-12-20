@@ -261,8 +261,8 @@ class PracticeN5Activity : AppCompatActivity() {
 
     private fun showAnswerLittleByLittle() {
         val alphaAnimation = AlphaAnimation(0f, 1f)
-        alphaAnimation.startOffset = 1000
-        alphaAnimation.duration = 2000
+        alphaAnimation.startOffset = 5000
+        alphaAnimation.duration = 1000
         binding.meaning.startAnimation(alphaAnimation)
         binding.romaji.startAnimation(alphaAnimation)
     }

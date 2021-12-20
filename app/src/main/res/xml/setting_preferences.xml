@@ -18,13 +18,9 @@
 
     <PreferenceCategory app:title="@string/display_header">
 
-        <ListPreference
-            app:defaultValue="@string/pref_dark_auto"
-            app:entries="@array/dark_mode"
-            app:entryValues="@array/dark_mode_value"
-            app:key="@string/pref_key_dark"
-            app:title="@string/pref_dark_title"
-            app:useSimpleSummaryProvider="true" />
+        <SwitchPreferenceCompat android:defaultValue="false"
+            android:key="@string/pref_dark_mode_key"
+            android:title="@string/pref_dark_mode_title"/>
 
     </PreferenceCategory>
 </PreferenceScreen>

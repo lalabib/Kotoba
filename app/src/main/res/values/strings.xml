@@ -36,10 +36,13 @@
     <string name="editing_word">daun</string>
     <string name="romaji">ha</string>
 
-
+    <string name="pref_dark_mode_key">practice_dark_mode</string>
+    <string name="pref_dark_mode_title">Dark Mode</string>
     <string name="pref_reminder_time_title">Atur Waktu</string>
     <string name="pref_reminder_time_key">reminder_time_key</string>
     <string name="pref_practice_reminder_key">practice_reminder_key</string>
     <string name="pref_practice_reminder_title">Pengingat Latihan</string>
     <string name="pengingat">Notifikasi Pengingat</string>
+    <string name="notification_title">Waktu Untuk Latihan</string>
+    <string name="notification_content">Kamu akan lebih baik jika latihan setiap hari, Mari latihan, Semangat</string>
 </resources>

@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
+import androidx.preference.PreferenceManager
 import com.capstone.project.kotoba.R
 import com.capstone.project.kotoba.databinding.ActivityHomeBinding
 import com.capstone.project.kotoba.ui.instruksi.InstruksiFragment
@@ -35,6 +37,7 @@ class HomeActivity : AppCompatActivity() {
             val mFragmentManager = supportFragmentManager
             mInstruksiFragment.show(mFragmentManager, InstruksiFragment::class.java.simpleName)
         }
+        setTheme()
     }
 
     override fun onBackPressed() {
@@ -48,5 +51,14 @@ class HomeActivity : AppCompatActivity() {
         Handler(Looper.getMainLooper()).postDelayed({
             doubleBackToExitPressedOnce = false
         }, pressed)
+    }
+    private fun setTheme() {
+        val preference = PreferenceManager.getDefaultSharedPreferences(this)
+        val darkMode = preference.getBoolean(getString(R.string.pref_dark_mode_key), false)
+        if (darkMode) {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_YES)
+        } else {
+            AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO)
+        }
     }
 }
