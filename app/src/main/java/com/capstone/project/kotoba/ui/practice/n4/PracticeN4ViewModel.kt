@@ -67,7 +67,7 @@ class PracticeN4ViewModel: ViewModel() {
 
     fun getManusiaBagianTubuh(): MutableList<N4> = DataKataN4.getManusiaBagianTubuh()
 
-    fun getPakaianBahanPakaianPerhiasaan(): MutableList<N4> = DataKataN4.getPakaianBahanPakaianPerhiasan()
+    fun getPakaianBahanPakaianPerhiasan(): MutableList<N4> = DataKataN4.getPakaianBahanPakaianPerhiasan()
 
     fun getPendidikan(): MutableList<N4> = DataKataN4.getPendidikan()
 

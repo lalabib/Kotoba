@@ -34,7 +34,7 @@ object DataKategoriN4 {
 
         kategori.add(KategoriN4(14,"Kata kerja Part 2"))
 
-        kategori.add(KategoriN4(15,"Kata kerja part 3"))
+        kategori.add(KategoriN4(15,"Kata kerja Part 3"))
 
         kategori.add(KategoriN4(16,"Kata keterangan"))
 
@@ -80,7 +80,7 @@ object DataKategoriN4 {
 
         kategori.add(KategoriN4(37,"Politik & Hukum"))
 
-        kategori.add(KategoriN4(38,"Profesi, Pekerjaa & Kedudukan"))
+        kategori.add(KategoriN4(38,"Profesi, Pekerjaan & Kedudukan"))
 
         kategori.add(KategoriN4(39,"Rekreasi , Olahraga & Pertandingan"))
 
