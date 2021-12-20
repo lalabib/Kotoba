@@ -6,6 +6,7 @@
     <string name="close">Tutup</string>
     <string name="kategori">Kategori</string>
     <string name="gambar">gambar</string>
+    <string name="pengaturan">Pengaturan</string>
     <string name="keluar">Tekan sekali lagi untuk keluar</string>
 
     <string name="go_n5">Menghafal Kosakata N5</string>
@@ -22,14 +23,6 @@
 
 
     <string name="display_header">Tampilan</string>
-    <string name="pref_dark_title">Mode Gelap</string>
-    <string name="pref_key_dark" translatable="false">key_dark_mode</string>
-    <string name="pref_dark_auto" translatable="false">auto</string>
-    <string name="pref_dark_on" translatable="false">on</string>
-    <string name="pref_dark_off" translatable="false">off</string>
-    <string name="dark_mode_auto">Otomatis</string>
-    <string name="dark_mode_on">Mode Gelap</string>
-    <string name="dark_mode_off">Mode Cahaya</string>
     <string name="card_next">Selanjutnya</string>
     <string name="card_previous">Sebelumnya</string>
     <string name="editing_meaning">は</string>
@@ -37,7 +30,7 @@
     <string name="romaji">ha</string>
 
     <string name="pref_dark_mode_key">practice_dark_mode</string>
-    <string name="pref_dark_mode_title">Dark Mode</string>
+    <string name="pref_dark_mode_title">Mode Gelap</string>
     <string name="pref_reminder_time_title">Atur Waktu</string>
     <string name="pref_reminder_time_key">reminder_time_key</string>
     <string name="pref_practice_reminder_key">practice_reminder_key</string>

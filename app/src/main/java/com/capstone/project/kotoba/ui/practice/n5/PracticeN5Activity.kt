@@ -73,7 +73,7 @@ class PracticeN5Activity : AppCompatActivity() {
             }
             11 -> {
                 cards = viewModel.getGanti()
-                title = "Kata Ganti"
+                title = "Kata Ganti Orang"
             }
             12 -> {
                 cards = viewModel.getKerjaI()

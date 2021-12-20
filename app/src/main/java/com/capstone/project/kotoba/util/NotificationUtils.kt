@@ -16,7 +16,7 @@ import androidx.core.app.NotificationManagerCompat
 import com.capstone.project.kotoba.R
 import com.capstone.project.kotoba.ui.home.HomeActivity
 
-val NOTI_CH_ID: String = "Practice Notification"
+const val NOTI_CH_ID: String = "Practice Notification"
 
 fun createNotificationChannel(context: Context) {
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
@@ -37,23 +37,23 @@ fun createNotificationChannel(context: Context) {
     }
 }
 
-fun notify(context: Context) {
-    val notificationManager =
-        NotificationManagerCompat.from(context)
-    val builder: NotificationCompat.Builder = NotificationCompat.Builder(context, NOTI_CH_ID)
-    builder.setSmallIcon(R.drawable.ic_action_done)
-    builder.setContentTitle(context.getString(R.string.notification_title))
-    builder.setContentText(context.getString(R.string.notification_content))
-    val sound: Uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
-    builder.setSound(sound)
-    builder.setDefaults(Notification.DEFAULT_ALL)
-    builder.setPriority(NotificationCompat.PRIORITY_HIGH)
-    builder.setAutoCancel(true)
+    fun notify(context: Context) {
+        val notificationManager =
+            NotificationManagerCompat.from(context)
+        val builder: NotificationCompat.Builder = NotificationCompat.Builder(context, NOTI_CH_ID)
+        builder.setSmallIcon(R.drawable.ic_action_done)
+        builder.setContentTitle(context.getString(R.string.notification_title))
+        builder.setContentText(context.getString(R.string.notification_content))
+        val sound: Uri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION)
+        builder.setSound(sound)
+        builder.setDefaults(Notification.DEFAULT_ALL)
+        builder.priority = NotificationCompat.PRIORITY_HIGH
+        builder.setAutoCancel(true)
 
-    val i = Intent(context, HomeActivity::class.java)
-    val pendingIntent = PendingIntent.getActivity(context, 0, i, PendingIntent.FLAG_UPDATE_CURRENT
-    )
+        val i = Intent(context, HomeActivity::class.java)
+        val pendingIntent = PendingIntent.getActivity(context, 0, i, PendingIntent.FLAG_UPDATE_CURRENT
+        )
 
-    builder.setContentIntent(pendingIntent)
-    notificationManager.notify(System.currentTimeMillis().toInt(), builder.build())
-}
+        builder.setContentIntent(pendingIntent)
+        notificationManager.notify(System.currentTimeMillis().toInt(), builder.build())
+    }

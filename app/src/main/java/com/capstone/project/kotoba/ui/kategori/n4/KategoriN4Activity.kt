@@ -7,7 +7,6 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
-import androidx.recyclerview.widget.LinearLayoutManager
 import com.capstone.project.kotoba.R
 import com.capstone.project.kotoba.data.n4.KategoriN4
 import com.capstone.project.kotoba.databinding.ActivityKategoriN4Binding
