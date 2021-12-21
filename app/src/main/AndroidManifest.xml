@@ -3,13 +3,15 @@
     package="com.capstone.project.kotoba">
 
     <application
+        android:name=".KotobaApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="false"
         android:icon="@drawable/logo_kotoba"
         android:label="@string/app_name"
         android:roundIcon="@drawable/logo_kotoba"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Kotoba">
+        android:theme="@style/Theme.Kotoba"
+        android:fullBackupContent="@xml/backup_descriptor">
         <activity
             android:name=".ui.practice.n5.PracticeN5Activity"
             android:exported="false" />
@@ -37,6 +39,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <receiver android:name=".ui.setting.AlarmReceiver" />
     </application>
 
 </manifest>

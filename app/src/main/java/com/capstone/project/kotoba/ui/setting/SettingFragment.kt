@@ -34,7 +34,7 @@ class SettingFragment : PreferenceFragmentCompat(), SharedPreferences.OnSharedPr
             timePicker(
                 show24HoursView = false,
                 currentTime = Calendar.getInstance()
-            ) { dialog, datetime ->
+            ) { _, datetime ->
                 changeReminderPreference(preference, datetime.timeInMillis)
                 dismissAlarm(requireContext())
                 setAlarm(requireContext(), datetime)
@@ -44,7 +44,7 @@ class SettingFragment : PreferenceFragmentCompat(), SharedPreferences.OnSharedPr
     }
 
     private fun formatTime(time: Long): String {
-        val dateFormat = SimpleDateFormat("hh:mm a")
+        val dateFormat = SimpleDateFormat("hh:mm a", Locale.getDefault())
         return dateFormat.format(Date(time))
     }
 
