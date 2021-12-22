@@ -1,23 +1,47 @@
 package com.capstone.project.kotoba.ui.practice.n4
 
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.speech.tts.TextToSpeech
 import android.text.method.ScrollingMovementMethod
+import android.util.Log
 import android.view.View
 import android.view.animation.AlphaAnimation
 import androidx.lifecycle.ViewModelProvider
+import com.capstone.project.kotoba.R
 import com.capstone.project.kotoba.data.n4.N4
 import com.capstone.project.kotoba.databinding.ActivityPracticeN4Binding
+import java.util.*
 
-class PracticeN4Activity : AppCompatActivity() {
+class PracticeN4Activity : AppCompatActivity(), TextToSpeech.OnInitListener {
+
     private lateinit var binding: ActivityPracticeN4Binding
     private var cards: MutableList<N4> = mutableListOf()
     private var uuid: Int = 0
+
     private var cardNumber: Int = 0
     private var title = " "
+    private var tts: TextToSpeech? = null
+    private val tag = "TTS"
+
+    override fun onInit(status: Int) {
+        if (status == TextToSpeech.SUCCESS) {
+            val result = tts!!.setLanguage(Locale.JAPAN)
+
+            if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                Log.e(tag, R.string.warning.toString())
+            } else {
+                binding.speakIcon.isEnabled = true
+            }
+        } else {
+            Log.e(tag, R.string.error.toString())
+        }
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         binding = ActivityPracticeN4Binding.inflate(layoutInflater)
         setContentView(binding.root)
 
@@ -199,9 +223,11 @@ class PracticeN4Activity : AppCompatActivity() {
         binding.meaning.setOnClickListener{
             it.clearAnimation()
             it.alpha = 1f
-            redrawFadeScrollbar()
             binding.romaji.clearAnimation()
             binding.romaji.alpha = 1f
+            binding.speakIcon.clearAnimation()
+            binding.speakIcon.alpha = 1f
+            redrawFadeScrollbar()
         }
 
         binding.meaning.movementMethod = ScrollingMovementMethod()
@@ -217,6 +243,22 @@ class PracticeN4Activity : AppCompatActivity() {
         binding.word.text = card.indonesia
         binding.meaning.text = card.hiragana
         binding.romaji.text = card.romaji
+
+        binding.speakIcon.isEnabled = false
+        tts = TextToSpeech(this, this)
+
+        binding.speakIcon.setOnClickListener { speakOut() }
+    }
+
+    private fun speakOut() {
+        val message = binding.romaji.text.toString()
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+            tts!!.speak(message, TextToSpeech.QUEUE_FLUSH, null, "")
+        } else {
+            @Suppress("DEPRECATION")
+            tts!!.speak(message, TextToSpeech.QUEUE_FLUSH, null)
+        }
     }
 
     @Suppress("UNUSED_PARAMETER")
@@ -270,5 +312,15 @@ class PracticeN4Activity : AppCompatActivity() {
         alphaAnimation.duration = 1000
         binding.meaning.startAnimation(alphaAnimation)
         binding.romaji.startAnimation(alphaAnimation)
+        binding.speakIcon.startAnimation(alphaAnimation)
+    }
+
+    override fun onDestroy() {
+        if (tts != null) {
+            tts!!.stop()
+            tts!!.shutdown()
+        }
+
+        super.onDestroy()
     }
 }

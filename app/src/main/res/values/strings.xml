@@ -8,6 +8,8 @@
     <string name="gambar">gambar</string>
     <string name="pengaturan">Pengaturan</string>
     <string name="keluar">Tekan sekali lagi untuk keluar</string>
+    <string name="warning">Bahasa yang ditentukan tidak didukung!</string>
+    <string name="error">Inisialisasi Gagal!</string>
 
     <string name="go_n5">Menghafal Kosakata N5</string>
     <string name="go_n4">Menghafal Kosakata N4</string>

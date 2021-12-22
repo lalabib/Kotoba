@@ -36,6 +36,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintBottom_toTopOf="@+id/cvMeaning"
         app:layout_constraintTop_toBottomOf="@+id/counter">
+
         <TextView
             android:text="@string/editing_word"
             android:layout_width="match_parent"
@@ -76,6 +77,7 @@
             android:fadeScrollbars="true"
             app:autoSizeTextType="uniform"
             app:autoSizeMaxTextSize="30dp"/>
+
         <TextView
             android:text="@string/romaji"
             android:layout_width="match_parent"
@@ -86,8 +88,18 @@
             android:scrollbars="vertical"
             app:autoSizeTextType="uniform"
             android:fadeScrollbars="true"
-            app:autoSizeMaxTextSize="30dp"
-            />
+            app:autoSizeMaxTextSize="30dp" />
+
+        <CheckBox
+            android:id="@+id/speak_icon"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_gravity="bottom|end"
+            android:backgroundTint="@android:color/transparent"
+            android:contentDescription="@string/gambar"
+            android:button="@drawable/ic_volume"
+            app:useMaterialThemeColors="false"/>
+
     </com.google.android.material.card.MaterialCardView>
 
     <com.google.android.material.button.MaterialButton
